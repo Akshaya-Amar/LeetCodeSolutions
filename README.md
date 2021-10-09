@@ -1,16 +1,11 @@
 LeetCode
 ========
 
-## Solutions
-- [1001 - Latest](./README.md)
+### Algorithms
+* [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
 
-## Algorithms
+## String
 
-* [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions/blob/master/0001-1000.md#bit-manipulation)
-* [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions/blob/master/0001-1000.md#array)
-
-## Array
-
-| # | Title | Solution | Difficulty | Complexity |
-|:---:| ----- | :--------: | :----------: | :----------: |
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./Solutions/C++/ValidPalindrome.cpp) <br> [Java](./Solutions/Java/ValidPalindrome.java) |Easy| Time - **O(N)** <br>Space - **O(1)**
+| # | Title | Solution | Difficulty | 
+|---| ----- | -------- | ---------- |
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp), [Java](./Java/ValidPalindrome.java) |Easy|
