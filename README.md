@@ -3,75 +3,8 @@ LeetCode
 
 ### Algorithms
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
-<br>
-<br>
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
 
 ## String
-
-| # | Title | Solution | Difficulty | 
-|---| ----- | -------- | ---------- |
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp), [Java](./Java/ValidPalindrome.java) |Easy|
+| # | Title | Solution | Difficulty | Complexity |
+|:---:| ----- | :--------: | :----------: | :----------: |
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [Java](./Java/ValidPalindrome.java) |Easy| Time - **O(N)** <br>Space - **O(1)**
