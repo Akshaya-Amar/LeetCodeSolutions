@@ -6,12 +6,12 @@ LeetCode
 * [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions#array)
 
 ## String
-| # | Title | Solution | Difficulty | Complexity |
+| # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [Java](./Java/ValidPalindrome.java) |Easy| Time - **O(N)** <br>Space - **O(1)**
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [Java](./Java/ValidPalindrome.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
 
 
 ## Array
-| # | Title | Solution | Difficulty | Complexity |
+| # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-|136|[Single Number](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/SingleNumber.cpp) <br> [Java](./Java/SingleNumber.java) |Easy| Time - **O(N)** <br>Space - **O(1)**
+|136|[Single Number](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/SingleNumber.cpp) <br> [Java](./Java/SingleNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
