@@ -1,6 +1,6 @@
 /*
 
-Source: https://leetcode.com/problems/valid-palindrome/submissions/
+Source: https://leetcode.com/problems/valid-palindrome/
 
 */
 
