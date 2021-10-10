@@ -7,6 +7,11 @@ LeetCode Solutions
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
 * [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hashtable)
 
+## Explained Solutions
+| # | Title | Explanation | Complexity | Difficulty |
+|:---:| ----- | :--------: | :----------: | :----------: |
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Link](https://leetcode.com/problems/powx-n/discuss/1337794/java-c-simple-o-logn-easy-faster-than-100-efficient-explained) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
+
 ## Math
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
