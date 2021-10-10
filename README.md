@@ -14,4 +14,4 @@ LeetCode
 ## Array
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-|136|[Single Number](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/SingleNumber.cpp) <br> [Java](./Java/SingleNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
+|136|[Single Number](https://leetcode.com/problems/single-number/)| [C++](./C++/SingleNumber.cpp) <br> [Java](./Java/SingleNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
