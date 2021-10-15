@@ -15,11 +15,6 @@ LeetCode Solutions
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Link](https://leetcode.com/problems/powx-n/discuss/1337794/java-c-simple-o-logn-easy-faster-than-100-efficient-explained) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [Link](https://leetcode.com/problems/number-of-1-bits/discuss/1519675/JAVA-C%2B%2B-PYTHON-%3A-Simple-or-Faster-than-100-or-Detailed-Explanation) |Time - **O(NumberOfSetBits)** <br>Space - **O(1)**| Easy
 
-## BinarySearch
-| # | Title | Explanation | Complexity | Difficulty |
-|:---:| ----- | :--------: | :----------: | :----------: |
-|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>5</sub>(N))** <br>Space - **O(1)**| Medium
-
 
 ## Math
 | # | Title | Solution | Complexity | Difficulty |
@@ -51,3 +46,9 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
+
+
+## BinarySearch
+| # | Title | Explanation | Complexity | Difficulty |
+|:---:| ----- | :--------: | :----------: | :----------: |
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>5</sub>(N))** <br>Space - **O(1)**| Medium
