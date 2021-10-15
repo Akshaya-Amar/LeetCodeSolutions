@@ -34,7 +34,7 @@ LeetCode Solutions
 |:---:| ----- | :--------: | :----------: | :----------: |
 |136|[Single Number](https://leetcode.com/problems/single-number/)| [C++](./C++/SingleNumber.cpp) <br> [Java](./Java/SingleNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
-|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>5</sub>(N))** <br>Space - **O(1)**| Medium
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
@@ -51,4 +51,4 @@ LeetCode Solutions
 ## BinarySearch
 | # | Title | Explanation | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>5</sub>(N))** <br>Space - **O(1)**| Medium
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
