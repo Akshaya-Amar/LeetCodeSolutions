@@ -27,7 +27,7 @@ LeetCode Solutions
 ## BitManipulation
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/PalindromeNumber.cpp) <br>[Java](./Java/NumberOfSetBits.java) |Time - **O(NumberOfSetBits)** <br>Space - **O(1)**| Easy
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/PalindromeNumber.cpp) <br>[Java](./Java/NumberOfSetBits.java) |Time - **O(32)** <br>Space - **O(1)**| Easy
 
 ## Array
 | # | Title | Solution | Complexity | Difficulty |
