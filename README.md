@@ -14,7 +14,7 @@ LeetCode Solutions
 |:---:| ----- | :--------: | :----------: | :----------: |
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Link](https://leetcode.com/problems/powx-n/discuss/1337794/java-c-simple-o-logn-easy-faster-than-100-efficient-explained) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [Link](https://leetcode.com/problems/number-of-1-bits/discuss/1519675/JAVA-C%2B%2B-PYTHON-%3A-Simple-or-Faster-than-100-or-Detailed-Explanation) |Time - **O(1)** <br>Space - **O(1)**| Easy
-
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [Link](https://leetcode.com/problems/palindrome-number/discuss/1238021/Java%3A-In-place-0(1)-Space-or-Fast-or-No-Overflow-or-Efficient-Solution-with-Explanation) | Time - **O(log<sub>10</sub>(N))** <br>Space - **O(1)**| Easy
 
 ## Math
 | # | Title | Solution | Complexity | Difficulty |
@@ -27,7 +27,7 @@ LeetCode Solutions
 ## BitManipulation
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/PalindromeNumber.cpp) <br>[Java](./Java/NumberOfSetBits.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
+|191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/NumberOfSetBits.cpp) <br>[Java](./Java/NumberOfSetBits.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
 
 ## Array
 | # | Title | Solution | Complexity | Difficulty |
