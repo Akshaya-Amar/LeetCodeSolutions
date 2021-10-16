@@ -23,6 +23,8 @@ LeetCode Solutions
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [C++](./C++/PalindromeNumber.cpp) <br> [Java](./Java/PalindromeNumber.java) |Time - **O(log<sub>10</sub>(N))** <br>Space - **O(1)**| Easy
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [C++](./C++/ReverseInteger.cpp) <br> [Java](./Java/ReverseInteger.java) |Time - **O(log<sub>10</sub>(N))** <br>Space - **O(1)**| Medium
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [C++](./C++/FactorialTrailingZeroes.cpp) <br> [Java](./Java/FactorialTrailingZeroes.java) |Time - **O(log<sub>5</sub>(N))** <br>Space - **O(1)**| Medium
+|231|[Power Of Two](https://leetcode.com/problems/power-of-two/)| [C++](./C++/PowerOfTwo.cpp) <br> [Java](./Java/PowerOfTwo.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
+
 
 ## BitManipulation
 | # | Title | Solution | Complexity | Difficulty |
