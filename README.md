@@ -6,10 +6,10 @@ LeetCode Solutions
 * [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions#bit-manipulation)
 * [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions#array)
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
-* [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hashtable)
+* [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hash-table)
 * [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binary-search)
 * [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
-* [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamicprogramming)
+* [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamic-programming)
 
 ## Explained Solutions
 | # | Title | Explanation | Complexity | Difficulty |
@@ -53,7 +53,7 @@ LeetCode Solutions
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(M * N)** <br>Space - **O(1)**| Easy
 
-## HashTable
+## Hash Table
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
@@ -70,7 +70,7 @@ LeetCode Solutions
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
 
-## DynamicProgramming
+## Dynamic Programming
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
