@@ -1,3 +1,11 @@
+/*
+
+Source: https://leetcode.com/problems/n-th-tribonacci-number/
+
+Time: O(N), where N is the given n
+Space: O(1), in-place
+
+*/ 
 class Solution {
   public int tribonacci(int n) {
 

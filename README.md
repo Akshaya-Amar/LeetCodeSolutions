@@ -9,6 +9,7 @@ LeetCode Solutions
 * [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hashtable)
 * [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binarysearch)
 * [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
+* [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamicprogramming)
 
 
 ## Explained Solutions
@@ -27,6 +28,7 @@ LeetCode Solutions
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Java](./Java/Pow.java) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [C++](./C++/FactorialTrailingZeroes.cpp) <br> [Java](./Java/FactorialTrailingZeroes.java) |Time - **O(log<sub>5</sub>(N))** <br>Space - **O(1)**| Medium
 |231|[Power Of Two](https://leetcode.com/problems/power-of-two/)| [C++](./C++/PowerOfTwo.cpp) <br> [Java](./Java/PowerOfTwo.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
+|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
 
 
 ## BitManipulation
@@ -67,3 +69,8 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
+
+# Dynamic Programming
+| # | Title | Solution | Complexity | Difficulty |
+|:---:| ----- | :--------: | :----------: | :----------: |
+[C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
