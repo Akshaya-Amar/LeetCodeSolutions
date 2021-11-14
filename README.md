@@ -8,6 +8,8 @@ LeetCode Solutions
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
 * [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hashtable)
 * [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binarysearch)
+* [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
+
 
 ## Explained Solutions
 | # | Title | Explanation | Complexity | Difficulty |
@@ -52,9 +54,15 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
+|1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
 
 
 ## BinarySearch
 | # | Title | Explanation | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
+
+# Sorting
+| # | Title | Explanation | Complexity | Difficulty |
+|:---:| ----- | :--------: | :----------: | :----------: |
+|1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
