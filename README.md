@@ -70,7 +70,7 @@ LeetCode Solutions
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
 
-## Dynamic Programming
+## DynamicProgramming
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
