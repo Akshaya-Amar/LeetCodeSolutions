@@ -7,7 +7,7 @@ LeetCode Solutions
 * [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions#array)
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
 * [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hashtable)
-* [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binarysearch)
+* [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binary-search)
 * [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
 * [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamicprogramming)
 
@@ -60,7 +60,7 @@ LeetCode Solutions
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
 
-## BinarySearch
+## Binary Search
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
