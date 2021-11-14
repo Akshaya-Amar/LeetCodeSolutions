@@ -1,3 +1,11 @@
+/*
+
+Source: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+Time: O(N + M), where N is the length of array and M is the maximum number of nums
+Space: O(M), where M is the maximum number of nums
+
+*/
+
 class Solution {
   public int[] smallerNumbersThanCurrent(int[] nums) {
 
