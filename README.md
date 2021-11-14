@@ -56,7 +56,6 @@ LeetCode Solutions
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
 
-
 ## BinarySearch
 | # | Title | Explanation | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
