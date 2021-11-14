@@ -3,7 +3,7 @@ LeetCode Solutions
 
 ### Algorithms
 * [Math](https://github.com/Akshaya-Amar/LeetCodeSolutions#math)
-* [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions#bitmanipulation)
+* [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions#bit-manipulation)
 * [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions#array)
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
 * [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hashtable)
