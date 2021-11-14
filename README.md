@@ -11,7 +11,6 @@ LeetCode Solutions
 * [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
 * [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamicprogramming)
 
-
 ## Explained Solutions
 | # | Title | Explanation | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
@@ -52,6 +51,7 @@ LeetCode Solutions
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [Java](./Java/ValidPalindrome.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [Java](./Java/ValidPalindrome.java) |Time - **O(N * M)** <br>Space - **O(N)**| Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
+|796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(M * N)** <br>Space - **O(1)**| Easy
 
 ## HashTable
 | # | Title | Solution | Complexity | Difficulty |
@@ -73,4 +73,4 @@ LeetCode Solutions
 # Dynamic Programming
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-[C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
+|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy

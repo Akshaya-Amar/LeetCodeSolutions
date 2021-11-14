@@ -1,3 +1,12 @@
+/*
+
+Source: https://leetcode.com/problems/rotate-string/
+
+Time: O(M * N), where M is the length of String s and N is the length of String goal
+Space: O(1), in-place
+
+*/
+
 class Solution {
 public:
   bool rotateString(string s, string goal) {
