@@ -30,7 +30,7 @@ LeetCode Solutions
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
 
 
-## BitManipulation
+## Bit Manipulation
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/NumberOfSetBits.cpp) <br>[Java](./Java/NumberOfSetBits.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
