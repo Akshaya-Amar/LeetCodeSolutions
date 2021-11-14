@@ -61,7 +61,7 @@ LeetCode Solutions
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
 
 ## BinarySearch
-| # | Title | Explanation | Complexity | Difficulty |
+| # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
 
