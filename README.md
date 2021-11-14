@@ -42,6 +42,8 @@ LeetCode Solutions
 |136|[Single Number](https://leetcode.com/problems/single-number/)| [C++](./C++/SingleNumber.cpp) <br> [Java](./Java/SingleNumber.java) |Time - **O(N)** <br>Space - **O(1)**| Easy
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(N))** <br>Space - **O(1)**| Medium
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(N + M)** <br>Space - **O(M)**| Easy
+|500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(N)**| Easy
+
 
 
 ## String
