@@ -27,9 +27,9 @@ LeetCode Solutions
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Java](./Java/Pow.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [C++](./C++/FactorialTrailingZeroes.cpp) <br> [Java](./Java/FactorialTrailingZeroes.java) |Time - **O(log<sub>5</sub>(n))** <br>Space - **O(1)**| Medium
 |231|[Power Of Two](https://leetcode.com/problems/power-of-two/)| [C++](./C++/PowerOfTwo.cpp) <br> [Java](./Java/PowerOfTwo.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
+|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)| [C++](./C++/UglyNumber.cpp) <br> [Java](./Java/UglyNumber.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)| [C++](./C++/SubtracttheProductandSumofDigitsofanInteger.cpp) <br> [Java](./Java/SubtracttheProductandSumofDigitsofanInteger.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|263|[Ugly Number](https://leetcode.com/problems/ugly-number/)| [C++](./C++/UglyNumber.cpp) <br> [Java](./Java/UglyNumber.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./C++/NumberofStepstoReduceaNumbertoZero.cpp) <br>[Java](./Java/NumberofStepstoReduceaNumbertoZero.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 
 ## Bit Manipulation
