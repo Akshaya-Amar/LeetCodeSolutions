@@ -1,3 +1,12 @@
+/*
+
+Source: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+
+Time: O(n), where n is the length of the given array
+Space: O(n), not an in-place
+
+*/
+
 class Solution {
   public boolean uniqueOccurrences(int[] arr) {
 
