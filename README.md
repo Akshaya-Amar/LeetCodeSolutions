@@ -3,13 +3,13 @@ LeetCode Solutions
 
 ### Algorithms
 * [Math](https://github.com/Akshaya-Amar/LeetCodeSolutions#math)
-* [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions#bitmanipulation)
+* [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions#bit-manipulation)
 * [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions#array)
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
-* [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hashtable)
-* [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binarysearch)
+* [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hash-table)
+* [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binary-search)
 * [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
-* [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamicprogramming)
+* [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamic-programming)
 
 ## Explained Solutions
 | # | Title | Explanation | Complexity | Difficulty |
@@ -32,7 +32,7 @@ LeetCode Solutions
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)| [C++](./C++/UglyNumber.cpp) <br> [Java](./Java/UglyNumber.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./C++/NumberofStepstoReduceaNumbertoZero.cpp) <br>[Java](./Java/NumberofStepstoReduceaNumbertoZero.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 
-## BitManipulation
+## Bit Manipulation
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/NumberOfSetBits.cpp) <br>[Java](./Java/NumberOfSetBits.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
@@ -59,7 +59,7 @@ LeetCode Solutions
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 
-## HashTable
+## Hash Table
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
@@ -67,7 +67,7 @@ LeetCode Solutions
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Java](./Java/UniqueNumberofOccurrences.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
 
-## BinarySearch
+## Binary Search
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
