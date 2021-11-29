@@ -2,10 +2,10 @@
 
 Source: https://leetcode.com/problems/n-th-tribonacci-number/
 
-Time: O(N), where N is the given n
+Time: O(n), where n is the given integer n
 Space: O(1), in-place
 
-*/ 
+*/
 class Solution {
   public int tribonacci(int n) {
 
