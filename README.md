@@ -18,6 +18,8 @@ LeetCode Solutions
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Explained Solution](https://leetcode.com/problems/powx-n/discuss/1337794/java-c-simple-o-logn-easy-faster-than-100-efficient-explained) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [Explained Solution](https://leetcode.com/problems/number-of-1-bits/discuss/1519675/JAVA-C%2B%2B-PYTHON-%3A-Simple-or-Faster-than-100-or-Detailed-Explanation) |Time - **O(1)** <br>Space - **O(1)**| Easy
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)| [Commented Solution](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/discuss/1310558/JAVA-C%2B%2B%3A-Simple-or-0ms-or-Pure-Logic-or-Clean-or-Efficient-or-Explained) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|1470|[Shuffle The Array](https://leetcode.com/problems/shuffle-the-array/)|[Explained Solution](https://leetcode.com/problems/shuffle-the-array/discuss/1314638/JAVA-C%2B%2B-%3A-Simple-or-O(1)-Space-In-Place-or-100-Faster-or-Efficient-or-Explained)|Time - **O(n)** <br>Space - **O(1)**| Easy
+
 
 ## Math
 | # | Title | Solution | Complexity | Difficulty |
@@ -49,7 +51,10 @@ LeetCode Solutions
 |1295|[Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)| [C++](./C++/FindNumberswithEvenNumberofDigits.cpp) <br> [Java](./Java/FindNumberswithEvenNumberofDigits.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)|[C++](./C++/KidsWiththeGreatestNumberofCandies.cpp) <br>[Java](./Java/KidsWiththeGreatestNumberofCandies.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|1470|[Shuffle The Array](https://leetcode.com/problems/shuffle-the-array/)|[C++](./C++/ShuffleTheArray.cpp) <br>[Java](./Java/ShuffleTheArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./C++/RunningSumof1dArray.cpp) <br>[Java](./Java/RunningSumof1dArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[C++](./C++/NumberofGoodPairs.cpp) <br>[Java](./Java/NumberofGoodPairs.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[C++](./C++/ThreeConsecutiveOdds.cpp) <br>[Java](./Java/ThreeConsecutiveOdds.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
@@ -58,6 +63,7 @@ LeetCode Solutions
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [Java](./Java/ValidPalindrome.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
+|1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)| [C++](./C++/ConsecutiveCharacters.cpp) <br> [Java](./Java/ConsecutiveCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Hash Table
 | # | Title | Solution | Complexity | Difficulty |
