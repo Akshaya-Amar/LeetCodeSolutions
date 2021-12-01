@@ -9,6 +9,7 @@ LeetCode Solutions
 * [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hash-table)
 * [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binary-search)
 * [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
+* [Two Pointers](https://github.com/Akshaya-Amar/LeetCodeSolutions#two-pointers)
 * [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamic-programming)
 
 ## Explained Solutions
@@ -44,6 +45,7 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [C++](./C++/RemoveDuplicatesfromSortedArrayII.cpp) <br>[Java](./Java/RemoveDuplicatesfromSortedArrayII.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 |136|[Single Number](https://leetcode.com/problems/single-number/)| [C++](./C++/SingleNumber.cpp) <br> [Java](./Java/SingleNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(n)**| Easy
@@ -82,6 +84,11 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
+
+## Two Pointers
+| # | Title | Solution | Complexity | Difficulty |
+|:---:| ----- | :--------: | :----------: | :----------: |
+|80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [C++](./C++/RemoveDuplicatesfromSortedArrayII.cpp) <br>[Java](./Java/RemoveDuplicatesfromSortedArrayII.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 
 ## Dynamic Programming
 | # | Title | Solution | Complexity | Difficulty |
