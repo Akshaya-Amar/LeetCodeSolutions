@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 
-Time: O(n), where n is the size of the array
+Time: O(n), where n is the length of the given array
 Space: O(1), in-place
 
 */
