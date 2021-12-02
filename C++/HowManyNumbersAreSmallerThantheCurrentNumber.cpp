@@ -2,8 +2,8 @@
 
 Source: https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
 
-Time: O(N + M), where N is the length of array and M is the maximum number of nums
-Space: O(M), where M is the maximum number of nums
+Time: O(n + m), where n is the length of array and m is the maximum value of num
+Space: O(m), where m is the maximum value of num
 
 */
 
