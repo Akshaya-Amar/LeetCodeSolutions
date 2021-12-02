@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 
-Time: O(n), where n is the length of the array
+Time: O(n), where n is the size of the given array
 Space: O(1), in-place
 
 */
