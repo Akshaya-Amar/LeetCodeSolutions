@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/find-peak-element
 
-Time: O(log base2 n), where n is the size of the array and (log base2 n) is the maximum number of possible iterations
+Time: O(log base2 n), where n is the length of the array and (log base2 n) is the maximum number of possible iterations
 Space: O(1), in-place
 
 */
