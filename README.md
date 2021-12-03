@@ -34,6 +34,7 @@ LeetCode Solutions
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)| [C++](./C++/SubtracttheProductandSumofDigitsofanInteger.cpp) <br> [Java](./Java/SubtracttheProductandSumofDigitsofanInteger.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./C++/NumberofStepstoReduceaNumbertoZero.cpp) <br>[Java](./Java/NumberofStepstoReduceaNumbertoZero.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
+|1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[C++](./C++/MinimumOperationstoMakeArrayEqual.cpp) <br>[Java](./Java/MinimumOperationstoMakeArrayEqual.java) |Time - **O(1)** <br>Space - **O(1)**| Medium
 
 ## Bit Manipulation
 | # | Title | Solution | Complexity | Difficulty |
@@ -67,6 +68,7 @@ LeetCode Solutions
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)| [C++](./C++/ConsecutiveCharacters.cpp) <br> [Java](./Java/ConsecutiveCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./C++/ShuffleString.cpp) <br>[Java](./Java/ShuffleString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Hash Table
 | # | Title | Solution | Complexity | Difficulty |
