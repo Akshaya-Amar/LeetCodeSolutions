@@ -6,6 +6,7 @@ LeetCode Solutions
 * [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions#bit-manipulation)
 * [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions#array)
 * [String](https://github.com/Akshaya-Amar/LeetCodeSolutions#string)
+* [Matrix](https://github.com/Akshaya-Amar/LeetCodeSolutions#matrix)
 * [Hash Table](https://github.com/Akshaya-Amar/LeetCodeSolutions#hash-table)
 * [Binary Search](https://github.com/Akshaya-Amar/LeetCodeSolutions#binary-search)
 * [Sorting](https://github.com/Akshaya-Amar/LeetCodeSolutions#sorting)
@@ -69,6 +70,11 @@ LeetCode Solutions
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)| [C++](./C++/ConsecutiveCharacters.cpp) <br> [Java](./Java/ConsecutiveCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./C++/ShuffleString.cpp) <br>[Java](./Java/ShuffleString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+
+## Matrix
+| # | Title | Solution | Complexity | Difficulty |
+|:---:| ----- | :--------: | :----------: | :----------: |
+|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./C++/MatrixDiagonalSum.cpp) <br>[Java](./Java/MatrixDiagonalSum.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Hash Table
 | # | Title | Solution | Complexity | Difficulty |
