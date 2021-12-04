@@ -58,7 +58,6 @@ LeetCode Solutions
 |1470|[Shuffle The Array](https://leetcode.com/problems/shuffle-the-array/)|[C++](./C++/ShuffleTheArray.cpp) <br>[Java](./Java/ShuffleTheArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./C++/RunningSumof1dArray.cpp) <br>[Java](./Java/RunningSumof1dArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[C++](./C++/NumberofGoodPairs.cpp) <br>[Java](./Java/NumberofGoodPairs.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
-|1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./C++/ShuffleString.cpp) <br>[Java](./Java/ShuffleString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[C++](./C++/ThreeConsecutiveOdds.cpp) <br>[Java](./Java/ThreeConsecutiveOdds.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## String
