@@ -3,7 +3,7 @@
 Source: https://leetcode.com/problems/ugly-number-ii/
 
 Time: O(n), where n is a given positive integer
-Space: O(1), in-place
+Space: O(n), an array is needed of length equal to the given positive integer n
 
 */
 
