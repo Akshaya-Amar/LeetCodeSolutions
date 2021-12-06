@@ -36,7 +36,7 @@ LeetCode Solutions
 |1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)| [C++](./C++/SubtracttheProductandSumofDigitsofanInteger.cpp) <br> [Java](./Java/SubtracttheProductandSumofDigitsofanInteger.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[C++](./C++/NumberofStepstoReduceaNumbertoZero.cpp) <br>[Java](./Java/NumberofStepstoReduceaNumbertoZero.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 |1551|[Minimum Operations to Make Array Equal](https://leetcode.com/problems/minimum-operations-to-make-array-equal/)|[C++](./C++/MinimumOperationstoMakeArrayEqual.cpp) <br>[Java](./Java/MinimumOperationstoMakeArrayEqual.java) |Time - **O(1)** <br>Space - **O(1)**| Medium
-|1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./C++/CountofMatchesinTournament.cpp) <br>[Java](./Java/CountofMatchesinTournament.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
+|1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournaments/)|[C++](./C++/CountofMatchesinTournament.cpp) <br>[Java](./Java/CountofMatchesinTournament.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
 
 ## Bit Manipulation
 | # | Title | Solution | Complexity | Difficulty |
