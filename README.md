@@ -60,6 +60,8 @@ LeetCode Solutions
 |1480|[Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)|[C++](./C++/RunningSumof1dArray.cpp) <br>[Java](./Java/RunningSumof1dArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[C++](./C++/NumberofGoodPairs.cpp) <br>[Java](./Java/NumberofGoodPairs.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[C++](./C++/ThreeConsecutiveOdds.cpp) <br>[Java](./Java/ThreeConsecutiveOdds.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[Java](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
