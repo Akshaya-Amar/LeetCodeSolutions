@@ -62,7 +62,6 @@ LeetCode Solutions
 |1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[C++](./C++/ThreeConsecutiveOdds.cpp) <br>[Java](./Java/ThreeConsecutiveOdds.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[Java](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 
-
 ## String
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
@@ -106,3 +105,4 @@ LeetCode Solutions
 |:---:| ----- | :--------: | :----------: | :----------: |
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)| [C++](./C++/UglyNumberII.cpp) <br> [Java](./Java/UglyNumberII.java) |Time - **O(n)** <br>Space - **O(n)**| Medium
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [Java](./Java/NthTribonacciNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[Java](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
