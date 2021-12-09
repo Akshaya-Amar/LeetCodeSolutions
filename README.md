@@ -72,6 +72,7 @@ LeetCode Solutions
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)| [C++](./C++/ConsecutiveCharacters.cpp) <br> [Java](./Java/ConsecutiveCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./C++/ShuffleString.cpp) <br>[Java](./Java/ShuffleString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[C++](./C++/GoalParserInterpretation.cpp) <br>[Java](./Java/GoalParserInterpretation.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
