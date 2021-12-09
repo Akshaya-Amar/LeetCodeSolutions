@@ -5,7 +5,7 @@ Source: https://leetcode.com/problems/goal-parser-interpretation/
 Time: O(n), where n is the length of the given string
 Space: O(1), in-place, though we are using extra string variable(res) to concatenate desired characters/string
 but still we will treat space as (1) and not O(n), as we usually don't consider the output in the space
-complexity i.e. temporary spaces used for getting the desired output are only considered.
+complexity i.e. only temporary spaces used for getting the desired output are considered.
 
 */
 
