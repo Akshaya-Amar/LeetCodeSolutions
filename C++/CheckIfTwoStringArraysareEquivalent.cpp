@@ -24,7 +24,6 @@ public:
 
     while(word1Index < word1Size && word2Index < word2Size) {
 
-
       if(a[index1++] != b[index2++]) {
         return false;
       }
