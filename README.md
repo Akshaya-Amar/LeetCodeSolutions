@@ -61,6 +61,7 @@ LeetCode Solutions
 |1512|[Number of Good Pairs](https://leetcode.com/problems/number-of-good-pairs/)|[C++](./C++/NumberofGoodPairs.cpp) <br>[Java](./Java/NumberofGoodPairs.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1550|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/)|[C++](./C++/ThreeConsecutiveOdds.cpp) <br>[Java](./Java/ThreeConsecutiveOdds.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[Java](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./C++/CheckIfTwoStringArraysareEquivalent.cpp) <br>[Java](./Java/CheckIfTwoStringArraysareEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./C++/RichestCustomerWealth.cpp) <br>[Java](./Java/RichestCustomerWealth.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 
 ## String
@@ -72,6 +73,7 @@ LeetCode Solutions
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)| [C++](./C++/ConsecutiveCharacters.cpp) <br> [Java](./Java/ConsecutiveCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./C++/ShuffleString.cpp) <br>[Java](./Java/ShuffleString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./C++/CheckIfTwoStringArraysareEquivalent.cpp) <br>[Java](./Java/CheckIfTwoStringArraysareEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[C++](./C++/GoalParserInterpretation.cpp) <br>[Java](./Java/GoalParserInterpretation.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
