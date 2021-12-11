@@ -67,6 +67,7 @@ LeetCode Solutions
 ## String
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./Java/GroupAnagrams.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [Java](./Java/ValidPalindrome.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [Java](./Java/ValidPalindrome.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
@@ -86,6 +87,7 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Java](./Java/TwoSum.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./Java/GroupAnagrams.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Java](./Java/UniqueNumberofOccurrences.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
