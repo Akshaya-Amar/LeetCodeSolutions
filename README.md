@@ -43,6 +43,7 @@ LeetCode Solutions
 |:---:| ----- | :--------: | :----------: | :----------: |
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/NumberOfSetBits.cpp) <br>[Java](./Java/NumberOfSetBits.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
 |231|[Power Of Two](https://leetcode.com/problems/power-of-two/)| [C++](./C++/PowerOfTwo.cpp) <br> [Java](./Java/PowerOfTwo.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
+|1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[C++](./C++/DecodeXORedArray.cpp) <br>[Java](./Java/DecodeXORedArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Array
 | # | Title | Solution | Complexity | Difficulty |
@@ -63,6 +64,7 @@ LeetCode Solutions
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[Java](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./C++/CheckIfTwoStringArraysareEquivalent.cpp) <br>[Java](./Java/CheckIfTwoStringArraysareEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./C++/RichestCustomerWealth.cpp) <br>[Java](./Java/RichestCustomerWealth.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
+|1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[C++](./C++/DecodeXORedArray.cpp) <br>[Java](./Java/DecodeXORedArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[C++](./C++/SumofUniqueElements.cpp) <br>[Java](./Java/SumofUniqueElements.java) |Time - **O(n)** <br>Space - **O(m)**| Easy
 
 ## String
