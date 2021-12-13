@@ -63,6 +63,7 @@ LeetCode Solutions
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[Java](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./C++/CheckIfTwoStringArraysareEquivalent.cpp) <br>[Java](./Java/CheckIfTwoStringArraysareEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./C++/RichestCustomerWealth.cpp) <br>[Java](./Java/RichestCustomerWealth.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
+|1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[C++](./C++/SumofUniqueElements.cpp) <br>[Java](./Java/SumofUniqueElements.java) |Time - **O(n)** <br>Space - **O(m)**| Easy
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
