@@ -80,6 +80,7 @@ LeetCode Solutions
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./C++/CheckIfTwoStringArraysareEquivalent.cpp) <br>[Java](./Java/CheckIfTwoStringArraysareEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[C++](./C++/GoalParserInterpretation.cpp) <br>[Java](./Java/GoalParserInterpretation.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[C++](./C++/CheckifOneStringSwapCanMakeStringsEqual.cpp) <br>[Java](./Java/CheckifOneStringSwapCanMakeStringsEqual.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[C++](./C++/SecondLargestDigitinaString.cpp) <br>[Java](./Java/SecondLargestDigitinaString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
