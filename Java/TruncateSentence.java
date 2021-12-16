@@ -1,3 +1,11 @@
+/*
+
+Source: https://leetcode.com/problems/truncate-sentence/
+
+Time: O(n), where n is the length of the given string
+Space: O(1), in-place
+
+*/
 class Solution {
   public String truncateSentence(String s, int k) {
 
