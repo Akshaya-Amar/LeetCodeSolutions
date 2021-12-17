@@ -14,14 +14,14 @@ public:
     int size = s.size();
 
     for(int i = 1; i < size; i += 2) {
-      s[i] = shift(s, i);
+      s[i] = shift(s[i - 1], s[i] - '0');
     }
 
     return s;
   }
 
 private:
-  char shift(string s, int i) {
-    return s[i - 1] + (s[i] - '0');
+  char shift(char ch, int digit) {
+    return ch + digit;
   }
 };
