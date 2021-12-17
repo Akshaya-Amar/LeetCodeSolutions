@@ -67,6 +67,7 @@ LeetCode Solutions
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./C++/RichestCustomerWealth.cpp) <br>[Java](./Java/RichestCustomerWealth.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[C++](./C++/DecodeXORedArray.cpp) <br>[Java](./Java/DecodeXORedArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[C++](./C++/SumofUniqueElements.cpp) <br>[Java](./Java/SumofUniqueElements.java) |Time - **O(n)** <br>Space - **O(m)**| Easy
+|1929|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[C++](./C++/ConcatenationofArray.cpp) <br>[Java](./Java/ConcatenationofArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
