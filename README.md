@@ -83,8 +83,8 @@ LeetCode Solutions
 |1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[C++](./C++/GoalParserInterpretation.cpp) <br>[Java](./Java/GoalParserInterpretation.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[C++](./C++/CheckifOneStringSwapCanMakeStringsEqual.cpp) <br>[Java](./Java/CheckifOneStringSwapCanMakeStringsEqual.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[C++](./C++/SecondLargestDigitinaString.cpp) <br>[Java](./Java/SecondLargestDigitinaString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[C++](./C++/TruncateSentence.cpp)[Java](./Java/TruncateSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|[C++](./C++/ReplaceAllDigitswithCharacters.cpp)[Java](./Java/ReplaceAllDigitswithCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[C++](./C++/TruncateSentence.cpp)<br>[Java](./Java/TruncateSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|[C++](./C++/ReplaceAllDigitswithCharacters.cpp)<br>[Java](./Java/ReplaceAllDigitswithCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
