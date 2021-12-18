@@ -86,6 +86,7 @@ LeetCode Solutions
 |1796|[Second Largest Digit in a String](https://leetcode.com/problems/second-largest-digit-in-a-string/)|[C++](./C++/SecondLargestDigitinaString.cpp) <br>[Java](./Java/SecondLargestDigitinaString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[C++](./C++/TruncateSentence.cpp)<br>[Java](./Java/TruncateSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|[C++](./C++/ReplaceAllDigitswithCharacters.cpp)<br>[Java](./Java/ReplaceAllDigitswithCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1945|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[C++](./C++/SumofDigitsofStringAfterConvert.cpp)<br>[Java](./Java/SumofDigitsofStringAfterConvert.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
