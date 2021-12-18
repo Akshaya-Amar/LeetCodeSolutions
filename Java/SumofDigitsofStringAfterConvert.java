@@ -10,30 +10,30 @@ Space: O(1), in-place
 class Solution {
   public int getLucky(String s, int k) {
 
-    int res = 0;
+    int num = 0;
     for(char ch : s.toCharArray()) {
 
       int val = ch - 96;
 
       if(val > 9) {
-        res += (val / 10) + (val % 10);
+        num += (val / 10) + (val % 10);
       } else {
-        res += val;
+        num += val;
       }
     }
 
-    while(--k > 0 && res > 9) {
+    while(--k > 0 && num > 9) {
 
-      int num = 0;
+      int sumOfDigits = 0;
 
-      while(res != 0) {
-        num += res % 10;
-        res /= 10;
+      while(num != 0) {
+        sumOfDigits += num % 10;
+        num /= 10;
       }
 
-      res = num;
+      num = sumOfDigits;
     }
 
-    return res;
+    return num;
   }
 }
