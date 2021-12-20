@@ -67,6 +67,7 @@ LeetCode Solutions
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./C++/RichestCustomerWealth.cpp) <br>[Java](./Java/RichestCustomerWealth.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[C++](./C++/DecodeXORedArray.cpp) <br>[Java](./Java/DecodeXORedArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[C++](./C++/SumofUniqueElements.cpp) <br>[Java](./Java/SumofUniqueElements.java) |Time - **O(n)** <br>Space - **O(m)**| Easy
+|1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[C++](./C++/RemoveOneElementtoMaketheArrayStrictlyIncreasing.cpp) <br>[Java](./Java/RemoveOneElementtoMaketheArrayStrictlyIncreasing.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1929|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[C++](./C++/ConcatenationofArray.cpp) <br>[Java](./Java/ConcatenationofArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## String
@@ -87,6 +88,7 @@ LeetCode Solutions
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[C++](./C++/TruncateSentence.cpp)<br>[Java](./Java/TruncateSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|[C++](./C++/ReplaceAllDigitswithCharacters.cpp)<br>[Java](./Java/ReplaceAllDigitswithCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1945|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[C++](./C++/SumofDigitsofStringAfterConvert.cpp)<br>[Java](./Java/SumofDigitsofStringAfterConvert.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[C++](./C++/ReversePrefixofWord.cpp)<br>[Java](./Java/ReversePrefixofWord.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
