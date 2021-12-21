@@ -76,6 +76,7 @@ LeetCode Solutions
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./Java/GroupAnagrams.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [Java](./Java/ValidPalindrome.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [Java](./Java/ValidPalindrome.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./C++/ReverseString.cpp)<br>[Java](./Java/ReverseString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[Java](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
@@ -90,7 +91,6 @@ LeetCode Solutions
 |1945|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[C++](./C++/SumofDigitsofStringAfterConvert.cpp)<br>[Java](./Java/SumofDigitsofStringAfterConvert.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[C++](./C++/ReversePrefixofWord.cpp)<br>[Java](./Java/ReversePrefixofWord.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[C++](./C++/MakeTheStringGreat.cpp)<br>[Java](./Java/MakeTheStringGreat.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./C++/RotateString.cpp)<br>[Java](./Java/RotateString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
