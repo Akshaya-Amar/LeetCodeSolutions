@@ -1,28 +1,26 @@
 /*
 
-Source:
+Source: https://leetcode.com/problems/make-the-string-great/
 
 Time: O(n), where n is the length of the given string(s)
-Space: O(1)
-
+Space: O(n), as we need a char array(ch) of size equal to the length of the given string(s)
 */
 
 class Solution {
   public String makeGood(String s) {
 
-    StringBuilder res = new StringBuilder(s.length());
+    char[] ch = s.toCharArray();
+    int j = 0;
 
-    for(char ch : s.toCharArray()) {
+    for(char c : ch) {
 
-      int len = res.length() - 1;
-
-      if((len + 1) != 0 && (res.charAt(len) ^ 32) == ch) {
-        res.deleteCharAt(len);
+      if(j > 0 && (c ^ 32) == ch[j - 1]) {
+        --j;
       } else {
-        res.append(ch);
+        ch[j++] = c;
       }
     }
 
-    return res.toString();
+    return String.valueOf(ch, 0, j);
   }
 }
