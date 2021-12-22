@@ -107,6 +107,9 @@ LeetCode Solutions
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Java](./Java/UniqueNumberofOccurrences.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[Java](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
+|2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[Java](./Java/KthDistinctStringinanArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[Java](./Java/CountCommonWordsWithOneOccurrence.java) |Time - **O(n + m)** <br>Space - **O(n)**| Easy
+
 
 ## Binary Search
 | # | Title | Solution | Complexity | Difficulty |
