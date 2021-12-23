@@ -15,19 +15,20 @@ class Solution {
       map.put(word, map.getOrDefault(word, 0) + 1);
     }
 
+    int count = 0;
     for(String word : words2) {
 
       Integer freq = map.get(word);
 
       if(freq != null && freq <= 1) {
-        map.put(word, freq - 1);
-      }
-    }
 
-    int count = 0;
-    for(int val : map.values()) {
-      if(val == 0) {
-        ++count;
+        if(freq == 1) {
+          ++count;
+        } else if (freq == 0) {
+          --count;
+        }
+
+        map.put(word, freq - 1);
       }
     }
 
