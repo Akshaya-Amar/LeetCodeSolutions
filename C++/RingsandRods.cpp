@@ -1,3 +1,12 @@
+/*
+
+Source: https://leetcode.com/problems/rings-and-rods/
+
+Time: O(n), where n is the length of given string(rings)
+Space: O(1), i.e. in-place.
+
+*/
+
 class Solution {
 public:
   int countPoints(string rings) {

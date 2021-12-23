@@ -91,6 +91,7 @@ LeetCode Solutions
 |1945|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[C++](./C++/SumofDigitsofStringAfterConvert.cpp)<br>[Java](./Java/SumofDigitsofStringAfterConvert.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[C++](./C++/MakeTheStringGreat.cpp)<br>[Java](./Java/MakeTheStringGreat.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[C++](./C++/ReversePrefixofWord.cpp)<br>[Java](./Java/ReversePrefixofWord.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[C++](./C++/RingsandRods.cpp)<br>[Java](./Java/RingsandRods.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
