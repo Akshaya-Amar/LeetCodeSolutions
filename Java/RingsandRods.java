@@ -3,7 +3,8 @@
 Source: https://leetcode.com/problems/rings-and-rods/
 
 Time: O(n), where n is the length of given string(rings)
-Space: O(1), i.e. in-place.
+Space: O(1), i.e. in-place because though we are using array of size 10, but still it will be same for
+all cases as the array size of 10 is fixed and doesn't depend on the input
 
 */
 
