@@ -69,8 +69,8 @@ LeetCode Solutions
 |1748|[Sum of Unique Elements](https://leetcode.com/problems/sum-of-unique-elements/)|[C++](./C++/SumofUniqueElements.cpp) <br>[Java](./Java/SumofUniqueElements.java) |Time - **O(n)** <br>Space - **O(m)**| Easy
 |1909|[Remove One Element to Make the Array Strictly Increasing](https://leetcode.com/problems/remove-one-element-to-make-the-array-strictly-increasing/)|[C++](./C++/RemoveOneElementtoMaketheArrayStrictlyIncreasing.cpp) <br>[Java](./Java/RemoveOneElementtoMaketheArrayStrictlyIncreasing.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1929|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[C++](./C++/ConcatenationofArray.cpp) <br>[Java](./Java/ConcatenationofArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|2006|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|[C++](./C++/CountNumberofPairsWithAbsoluteDifferenceK.cpp) <br>[Java](./Java/CountNumberofPairsWithAbsoluteDifferenceK.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
 |1980|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|[C++](./C++/FindUniqueBinaryString.cpp) <br>[Java](./Java/FindUniqueBinaryString.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
+|2006|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|[C++](./C++/CountNumberofPairsWithAbsoluteDifferenceK.cpp) <br>[Java](./Java/CountNumberofPairsWithAbsoluteDifferenceK.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
