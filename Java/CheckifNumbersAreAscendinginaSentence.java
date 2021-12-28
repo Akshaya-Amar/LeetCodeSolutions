@@ -3,7 +3,7 @@
 Source: https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/
 
 Time: O(n), where n is the length of the given string
-Space: O(n), we need a char array(ch) of length equal to the length of the given string(s)
+Space: O(n), we need a char array(ch) of size equal to the length of the given string(s)
 
 */
 
