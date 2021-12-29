@@ -71,6 +71,7 @@ LeetCode Solutions
 |1929|[Concatenation of Array](https://leetcode.com/problems/concatenation-of-array/)|[C++](./C++/ConcatenationofArray.cpp) <br>[Java](./Java/ConcatenationofArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1980|[Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)|[C++](./C++/FindUniqueBinaryString.cpp) <br>[Java](./Java/FindUniqueBinaryString.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 |2006|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|[C++](./C++/CountNumberofPairsWithAbsoluteDifferenceK.cpp) <br>[Java](./Java/CountNumberofPairsWithAbsoluteDifferenceK.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
+|2011|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[C++](./C++/FinalValueofVariableAfterPerformingOperations.cpp) <br>[Java](./Java/FinalValueofVariableAfterPerformingOperations.java) |Time - **O(n)** <br>Space - **O(m)**| Easy
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
