@@ -1,6 +1,6 @@
 /*
 
-Source: https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/submissions/
+Source: https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences
 
 Time: O(n), where n is the length of the given string(s)
 Space: O(n), as we need a char array of space equal to the length of the given string(s)
