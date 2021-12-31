@@ -99,6 +99,7 @@ LeetCode Solutions
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[C++](./C++/ReversePrefixofWord.cpp)<br>[Java](./Java/ReversePrefixofWord.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[C++](./C++/CheckifNumbersAreAscendinginaSentence.cpp)<br>[Java](./Java/CheckifNumbersAreAscendinginaSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[C++](./C++/RingsandRods.cpp)<br>[Java](./Java/RingsandRods.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Java](./Java/CheckIfaStringContainsAllBinaryCodesofSizeK.java) |Time - **O(n)** <br>Space - **O(k<sup>2</sup>(n))**| Medium
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
