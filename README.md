@@ -86,7 +86,9 @@ LeetCode Solutions
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[Java](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)| [C++](./C++/ConsecutiveCharacters.cpp) <br> [Java](./Java/ConsecutiveCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Java](./Java/CheckIfaStringContainsAllBinaryCodesofSizeK.java) |Time - **O(n)** <br>Space - **O(k<sup>2</sup>(n))**| Medium
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./C++/ShuffleString.cpp) <br>[Java](./Java/ShuffleString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[C++](./C++/MakeTheStringGreat.cpp)<br>[Java](./Java/MakeTheStringGreat.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1662|[Check If Two String Arrays are Equivalent](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)|[C++](./C++/CheckIfTwoStringArraysareEquivalent.cpp) <br>[Java](./Java/CheckIfTwoStringArraysareEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1678|[Goal Parser Interpretation](https://leetcode.com/problems/goal-parser-interpretation/)|[C++](./C++/GoalParserInterpretation.cpp) <br>[Java](./Java/GoalParserInterpretation.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1790|[Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[C++](./C++/CheckifOneStringSwapCanMakeStringsEqual.cpp) <br>[Java](./Java/CheckifOneStringSwapCanMakeStringsEqual.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
@@ -94,12 +96,10 @@ LeetCode Solutions
 |1816|[Truncate Sentence](https://leetcode.com/problems/truncate-sentence/)|[C++](./C++/TruncateSentence.cpp)<br>[Java](./Java/TruncateSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1844|[Replace All Digits with Characters](https://leetcode.com/problems/replace-all-digits-with-characters/)|[C++](./C++/ReplaceAllDigitswithCharacters.cpp)<br>[Java](./Java/ReplaceAllDigitswithCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1945|[Sum of Digits of String After Convert](https://leetcode.com/problems/sum-of-digits-of-string-after-convert/)|[C++](./C++/SumofDigitsofStringAfterConvert.cpp)<br>[Java](./Java/SumofDigitsofStringAfterConvert.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|1544|[Make The String Great](https://leetcode.com/problems/make-the-string-great/)|[C++](./C++/MakeTheStringGreat.cpp)<br>[Java](./Java/MakeTheStringGreat.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1941|[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/)|[C++](./C++/CheckifAllCharactersHaveEqualNumberofOccurrences.cpp)<br>[Java](./Java/CheckifAllCharactersHaveEqualNumberofOccurrences.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2000|[Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)|[C++](./C++/ReversePrefixofWord.cpp)<br>[Java](./Java/ReversePrefixofWord.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[C++](./C++/CheckifNumbersAreAscendinginaSentence.cpp)<br>[Java](./Java/CheckifNumbersAreAscendinginaSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[C++](./C++/RingsandRods.cpp)<br>[Java](./Java/RingsandRods.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Java](./Java/CheckIfaStringContainsAllBinaryCodesofSizeK.java) |Time - **O(n)** <br>Space - **O(k<sup>2</sup>(n))**| Medium
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
