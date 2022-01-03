@@ -11,21 +11,28 @@ class Solution {
 public:
   int maxVowels(string s, int k) {
 
-    int vowels[26] = {};
-    vowels[0] = vowels[4] = vowels[8] = vowels[14] = vowels[20] = 1;
-
+    bool vowels[126] = {};
+    vowels[0] = vowels[4] = vowels[8] = vowels[14] = vowels[20] = true;
     int currVowelCount = 0;
+
     for(int i = 0; i < k; ++i) {
-      currVowelCount += vowels[s[i] - 'a'];
+      if(vowels[s[i] - 'a']) {
+        currVowelCount += 1;
+      }
     }
 
     int maxVowelCount = currVowelCount;
     int len = s.length();
+
     for(int i = k; i < len; ++i) {
 
-      currVowelCount += vowels[s[i] - 'a'];
+      if(vowels[s[i] - 'a']) {
+        currVowelCount += 1;
+      }
 
-      currVowelCount -= vowels[s[i - k] - 'a'];
+      if(vowels[s[i - k] - 'a']) {
+        currVowelCount -= 1;
+      }
 
       if(currVowelCount == k) {
         return k;
