@@ -1,6 +1,6 @@
 /*
 
-Source: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/submissions/
+Source: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
 
 Time: O(n), where n is the length of the given string(s)
 Space: O(1), in-place
