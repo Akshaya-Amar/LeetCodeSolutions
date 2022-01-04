@@ -3,7 +3,7 @@
 Source: https://leetcode.com/problems/three-consecutive-odds/submissions/
 
 Time: O(n), where n is the length of the array
-Space: O(1),in-place
+Space: O(1), in-place
 
 */
 
