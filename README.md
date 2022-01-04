@@ -101,6 +101,8 @@ LeetCode Solutions
 |2042|[Check if Numbers Are Ascending in a Sentence](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence/)|[C++](./C++/CheckifNumbersAreAscendinginaSentence.cpp)<br>[Java](./Java/CheckifNumbersAreAscendinginaSentence.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2103|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[C++](./C++/RingsandRods.cpp)<br>[Java](./Java/RingsandRods.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[C++](./C++/MaximumNumberofVowelsinaSubstringofGivenLength.cpp)<br>[Java](./Java/MaximumNumberofVowelsinaSubstringofGivenLength.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
+|2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[C++](./C++/CheckWhetherTwoStringsareAlmostEquivalent.cpp)<br>[Java](./Java/CheckWhetherTwoStringsareAlmostEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
