@@ -74,6 +74,7 @@ LeetCode Solutions
 |2006|[Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)|[C++](./C++/CountNumberofPairsWithAbsoluteDifferenceK.cpp) <br>[Java](./Java/CountNumberofPairsWithAbsoluteDifferenceK.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
 |2011|[Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/)|[C++](./C++/FinalValueofVariableAfterPerformingOperations.cpp) <br>[Java](./Java/FinalValueofVariableAfterPerformingOperations.java) |Time - **O(n)** <br>Space - **O(m)**| Easy
 |2023|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Java](./Java/NumberofPairsofStringsWithConcatenationEqualtoTarget.java) |Time - **O(n * m)** <br>Space - **O(n)**| Easy
+|2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[C++](./C++/TwoFurthestHousesWithDifferentColors.cpp)[Java](./Java/TwoFurthestHousesWithDifferentColors.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
