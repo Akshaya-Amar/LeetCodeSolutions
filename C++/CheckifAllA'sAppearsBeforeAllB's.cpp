@@ -1,3 +1,12 @@
+/*
+
+Source: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
+
+Time: O(n), where n is the length of the given string(s)
+Space: O(1), in-place
+
+*/
+
 class Solution {
 public:
   bool checkString(string s) {

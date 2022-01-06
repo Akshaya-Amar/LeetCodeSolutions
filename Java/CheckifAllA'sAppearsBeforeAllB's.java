@@ -1,3 +1,12 @@
+/*
+
+Source: https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/
+
+Time: O(n), where n is the length of the given string(s)
+Space: O(n), we need a char array(ch) of size equal to the length of the given string(s) to check whether the given character is 'a' or 'b'
+
+*/
+
 class Solution {
   public boolean checkString(String s) {
 
