@@ -76,6 +76,7 @@ LeetCode Solutions
 |2023|[Number of Pairs of Strings With Concatenation Equal to Target](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)|[Java](./Java/NumberofPairsofStringsWithConcatenationEqualtoTarget.java) |Time - **O(n * m)** <br>Space - **O(n)**| Easy
 |2078|[Two Furthest Houses With Different Colors](https://leetcode.com/problems/two-furthest-houses-with-different-colors/)|[C++](./C++/TwoFurthestHousesWithDifferentColors.cpp)[Java](./Java/TwoFurthestHousesWithDifferentColors.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[C++](./C++/MaximumNumberofWordsFoundinSentences.cpp)[Java](./Java/MaximumNumberofWordsFoundinSentences.java) |Time - **O(n * m)** <br>Space - **O(1)**| Easy
+|1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./C++/CarPooling.cpp)[Java](./Java/CarPooling.java) |Time - **O(n)** <br>Space - **O(n)**| Medium
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
