@@ -21,7 +21,7 @@ LeetCode Solutions
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [Explained Solution](https://leetcode.com/problems/number-of-1-bits/discuss/1519675/JAVA-C%2B%2B-PYTHON-%3A-Simple-or-Faster-than-100-or-Detailed-Explanation) |Time - **O(1)** <br>Space - **O(1)**| Easy
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)| [Commented Solution](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/discuss/1310558/JAVA-C%2B%2B%3A-Simple-or-0ms-or-Pure-Logic-or-Clean-or-Efficient-or-Explained) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |1470|[Shuffle The Array](https://leetcode.com/problems/shuffle-the-array/)|[Explained Solution](https://leetcode.com/problems/shuffle-the-array/discuss/1314638/JAVA-C%2B%2B-%3A-Simple-or-O(1)-Space-In-Place-or-100-Faster-or-Efficient-or-Explained)|Time - **O(n)** <br>Space - **O(1)**| Easy
-
+|2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[Explained Solution](https://leetcode.com/problems/capitalize-the-title/discuss/1675922/java-c-pictorial-explanation-easy-simple-faster-than-100)|Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Math
 | # | Title | Solution | Complexity | Difficulty |
