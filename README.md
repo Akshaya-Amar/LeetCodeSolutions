@@ -106,7 +106,7 @@ LeetCode Solutions
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/)|[C++](./C++/MaximumNumberofVowelsinaSubstringofGivenLength.cpp)<br>[Java](./Java/MaximumNumberofVowelsinaSubstringofGivenLength.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 |2068|[Check Whether Two Strings are Almost Equivalent](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent/)|[C++](./C++/CheckWhetherTwoStringsareAlmostEquivalent.cpp)<br>[Java](./Java/CheckWhetherTwoStringsareAlmostEquivalent.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |2124|[Check if All A's Appears Before All B's](https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/)|[C++](./C++/CheckifAllA'sAppearsBeforeAllB's.cpp)<br>[Java](./Java/CheckifAllA'sAppearsBeforeAllB's.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[C++](./C++/CapitalizetheTitle.cpp)<br>[Java](./Java/CapitalizetheTitle.java)<br> [With Explanation](https://leetcode.com/problems/capitalize-the-title/discuss/1675922/java-c-pictorial-explanation-easy-simple-faster-than-100) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[C++](./C++/CapitalizetheTitle.cpp)<br>[Java](./Java/CapitalizetheTitle.java)<br><br>[ Explanation](https://leetcode.com/problems/capitalize-the-title/discuss/1675922/java-c-pictorial-explanation-easy-simple-faster-than-100) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
