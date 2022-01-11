@@ -29,6 +29,7 @@ LeetCode Solutions
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [C++](./C++/ReverseInteger.cpp) <br> [Java](./Java/ReverseInteger.java) |Time - **O(log<sub>10</sub>(n))** <br>Space - **O(1)**| Medium
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [C++](./C++/PalindromeNumber.cpp) <br> [Java](./Java/PalindromeNumber.java) |Time - **O(log<sub>10</sub>(n))** <br>Space - **O(1)**| Easy
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Java](./Java/Pow.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
+|67|[Add Binary](https://leetcode.com/problems/add-binary/)| [Java](./Java/AddBinary.java) |Time - **O(max(n, m))** <br>Space - **O(max(n, m))**| Easy
 |172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)| [C++](./C++/FactorialTrailingZeroes.cpp) <br> [Java](./Java/FactorialTrailingZeroes.java) |Time - **O(log<sub>5</sub>(n))** <br>Space - **O(1)**| Medium
 |231|[Power Of Two](https://leetcode.com/problems/power-of-two/)| [C++](./C++/PowerOfTwo.cpp) <br> [Java](./Java/PowerOfTwo.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
 |263|[Ugly Number](https://leetcode.com/problems/ugly-number/)| [C++](./C++/UglyNumber.cpp) <br> [Java](./Java/UglyNumber.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
