@@ -46,6 +46,7 @@ LeetCode Solutions
 |231|[Power Of Two](https://leetcode.com/problems/power-of-two/)| [C++](./C++/PowerOfTwo.cpp) <br> [Java](./Java/PowerOfTwo.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)| [C++](./C++/NumberComplement.cpp) <br> [Java](./Java/NumberComplement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 |1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[C++](./C++/DecodeXORedArray.cpp) <br>[Java](./Java/DecodeXORedArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)| [C++](./C++/ComplementofBase10Integer.cpp) <br> [Java](./Java/ComplementofBase10Integer.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 
 ## Array
 | # | Title | Solution | Complexity | Difficulty |
