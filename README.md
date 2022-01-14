@@ -133,6 +133,7 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)| [C++](./C++/BinarySearch.cpp) <br>[Java](./Java/BinarySearch.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 
 ## Sorting
 | # | Title | Solution | Complexity | Difficulty |
