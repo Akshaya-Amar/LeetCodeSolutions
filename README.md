@@ -115,6 +115,7 @@ LeetCode Solutions
 ## Matrix
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[C++](./C++/ReshapetheMatrix.cpp) <br>[Java](./Java/ReshapetheMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./C++/MatrixDiagonalSum.cpp) <br>[Java](./Java/MatrixDiagonalSum.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./C++/RichestCustomerWealth.cpp) <br>[Java](./Java/RichestCustomerWealth.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 

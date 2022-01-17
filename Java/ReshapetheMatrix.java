@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/reshape-the-matrix/
 
-Time: O(n), where n is the multiple of r and c
+Time: O(m * n), where m and n are the lengths of rows and columns respectively
 Space: O(1), in-place, though we are using extra 2d array(res) but we will still treat space as O(1) and not O(n)
 because we usually don't consider the output in the space complexity i.e. only temporary spaces which are used to get the desired output are considered.
 
