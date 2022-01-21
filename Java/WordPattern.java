@@ -1,6 +1,6 @@
 /*
 
-Source:
+Source: https://leetcode.com/problems/word-pattern/
 
 Time: O(n * m), where n is the length of the string(pattern) and m is the length of a longest word in string(s)
 Space: O(n), we need a HashMap of size equal to the length of the given string(pattern)
