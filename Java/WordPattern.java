@@ -11,7 +11,6 @@ class Solution {
   public boolean wordPattern(String pattern, String s) {
 
     String[] words = s.split(" ");
-
     if(words.length != pattern.length()) {
       return false;
     }
@@ -21,7 +20,7 @@ class Solution {
 
     for(int i = 0; i < len; ++i) {
 
-      char ch = pattern.charAt(i);
+      Character ch = pattern.charAt(i);
       String word = words[i];
       String val = map.get(ch);
 
