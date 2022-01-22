@@ -88,6 +88,7 @@ LeetCode Solutions
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[Java](./Java/GroupAnagrams.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [Java](./Java/ValidPalindrome.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)| [Java](./Java/ValidPalindrome.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
+|205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [C++](./C++/IsomorphicStrings.cpp) <br> [Java](./Java/IsomorphicStrings.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)| [Java](./Java/WordPattern.java) |Time - **O(n * m)** <br>Space - **O(n)**| Easy
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./C++/ReverseString.cpp)<br>[Java](./Java/ReverseString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
