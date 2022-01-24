@@ -11,23 +11,28 @@ class Solution {
 public:
   bool isIsomorphic(string s, string t) {
 
-    int sCharFreq[256] = {};
-    int tCharFreq[256] = {};
+    char sCharPattern[256] = {};
+    bool isPatternPresent[256] = {};
     int len = s.length();
 
     for(int i = 0; i < len; ++i) {
 
       char sChar = s[i];
       char tChar = t[i];
+      char sCharMapping = sCharPattern[sChar];
 
-      if(sCharFreq[sChar] != tCharFreq[tChar]) {
+      if(sCharMapping != 0) {
+        if(sCharMapping != tChar) {
+          return false;
+        }
+      } else if(isPatternPresent[tChar]) {
         return false;
+      } else {
+        sCharPattern[sChar] = tChar;
+        isPatternPresent[tChar] = true;
       }
-
-      sCharFreq[sChar] = tCharFreq[tChar] = i + 1;
     }
 
     return true;
-
   }
 };

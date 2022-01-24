@@ -10,20 +10,26 @@ Space: O(1), in-place
 class Solution {
   public boolean isIsomorphic(String s, String t) {
 
-    int[] sCharFreq = new int[256];
-    int[] tCharFreq = new int[256];
+    char[] sCharPattern = new char[256];
+    boolean[] isPatternPresent = new boolean[256];
     int len = s.length();
 
     for(int i = 0; i < len; ++i) {
 
       char sChar = s.charAt(i);
       char tChar = t.charAt(i);
+      char sCharMap = sCharPattern[sChar];
 
-      if(sCharFreq[sChar] != tCharFreq[tChar]) {
+      if(sCharMap != 0) {
+        if(sCharMap != tChar) {
+          return false;
+        }
+      } else if(isPatternPresent[tChar]) {
         return false;
+      } else {
+        sCharPattern[sChar] = tChar;
+        isPatternPresent[tChar] = true;
       }
-
-      sCharFreq[sChar] = tCharFreq[tChar] = i + 1;
     }
 
     return true;
