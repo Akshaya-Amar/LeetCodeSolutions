@@ -33,8 +33,4 @@ class Solution {
   private boolean isLetterCapital(char ch) {
     return ch >= 'A' && ch <= 'Z';
   }
-
-  private boolean isLetterSmall(char ch) {
-    return ch >= 'a' && ch <= 'z';
-  }
 }
