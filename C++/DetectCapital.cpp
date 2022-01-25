@@ -12,12 +12,12 @@ public:
   bool detectCapitalUse(string word) {
 
     int len = word.length();
-    bool isFirstLastCharCapital = (isLetterCapital(word[0]) && isLetterCapital(word[len - 1])) ? true : false;
+    bool isFirstLastCharCapital = isLetterCapital(word[0]) && isLetterCapital(word[len - 1]);
 
     for(int i = 1; i < len; ++i) {
 
       if(isFirstLastCharCapital) {
-        if(isLetterSmall(word[i])) {
+        if(!isLetterCapital(word[i])) {
           return false;
         }
       } else {
@@ -33,10 +33,5 @@ public:
 private:
   bool isLetterCapital(char ch) {
     return ch >= 'A' && ch <= 'Z';
-  }
-
-private:
-  bool isLetterSmall(char ch) {
-    return ch >= 'a' && ch <= 'z';
   }
 };

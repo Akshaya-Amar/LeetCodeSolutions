@@ -2,8 +2,8 @@
 
 Source: https://leetcode.com/problems/detect-capital/
 
-Time: O(n), where n is the length of the given string(word)
-Space: O(1), in-place
+Time: O(n), where n is the length of the given String(word)
+Space: O(n), we need a char array(ch) of size equal to the length of the given String(word) to access each character
 
 */
 
