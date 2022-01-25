@@ -92,6 +92,7 @@ LeetCode Solutions
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)| [Java](./Java/WordPattern.java) |Time - **O(n * m)** <br>Space - **O(n)**| Easy
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./C++/ReverseString.cpp)<br>[Java](./Java/ReverseString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [Java](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C++](./C++/DetectCapital.cpp) <br> [Java](./Java/DetectCapital.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [C++](./C++/ValidPalindromeII.cpp) <br> [Java](./Java/ValidPalindromeII.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[Java](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
