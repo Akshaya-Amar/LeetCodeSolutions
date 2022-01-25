@@ -11,18 +11,17 @@ class Solution {
   public boolean wordPattern(String pattern, String s) {
 
     String[] words = s.split(" ");
-    if(words.length != pattern.length()) {
+    if(pattern.length() != words.length) {
       return false;
     }
 
     HashMap<Character, String> map = new HashMap<>();
     int len = words.length;
-
     for(int i = 0; i < len; ++i) {
 
-      Character ch = pattern.charAt(i);
+      Character patternChar = pattern.charAt(i);
       String word = words[i];
-      String val = map.get(ch);
+      String val = map.get(patternChar);
 
       if(val != null) {
 
@@ -33,7 +32,7 @@ class Solution {
       } else if(map.containsValue(word)) {
         return false;
       } else {
-        map.put(ch, word);
+        map.put(patternChar, word);
       }
     }
 
