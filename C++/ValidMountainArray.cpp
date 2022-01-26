@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/valid-mountain-array/
 
-Time: O(log base2 n), where n is the size of the array
+Time: O(log base2 n), where n is the size of the provided array(arr)
 Space: O(1), in-place
 
 */
