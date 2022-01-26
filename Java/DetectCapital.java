@@ -12,12 +12,12 @@ class Solution {
 
     int len = word.length();
     char[] ch = word.toCharArray();
-    boolean isFirstLastCharCapital = (isLetterCapital(ch[0]) && isLetterCapital(ch[len - 1])) ? true : false;
+    boolean isFirstLastCharCapital = isLetterCapital(ch[0]) && isLetterCapital(ch[len - 1]);
 
     for(int i = 1; i < len; ++i) {
 
       if(isFirstLastCharCapital) {
-        if(isLetterSmall(ch[i])) {
+        if(!isLetterCapital(ch[i])) {
           return false;
         }
       } else {
