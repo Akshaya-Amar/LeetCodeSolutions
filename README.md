@@ -96,6 +96,7 @@ LeetCode Solutions
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [C++](./C++/ValidPalindromeII.cpp) <br> [Java](./Java/ValidPalindromeII.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [Java](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[Java](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
+|941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[C++](./C++/ValidMountainArray.cpp) <br>[Java](./Java/ValidMountainArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1446|[Consecutive Characters](https://leetcode.com/problems/consecutive-characters/)| [C++](./C++/ConsecutiveCharacters.cpp) <br> [Java](./Java/ConsecutiveCharacters.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1461|[Check If a String Contains All Binary Codes of Size K](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)|[Java](./Java/CheckIfaStringContainsAllBinaryCodesofSizeK.java) |Time - **O(n)** <br>Space - **O(2<sup>k</sup>)**| Medium
 |1528|[Shuffle String](https://leetcode.com/problems/shuffle-string/)|[C++](./C++/ShuffleString.cpp) <br>[Java](./Java/ShuffleString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
