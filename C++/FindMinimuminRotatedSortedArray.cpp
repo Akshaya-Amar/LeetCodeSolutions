@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
-Time: O(log base2 n), where n is the size of the given array(nums) and (log base2 n) is the maximum possible iterations
+Time: O(log base2 n), where n is the size of the given vector(nums) and (log base2 n) is the maximum possible iterations
 Space: O(1), in-place
 
 */
