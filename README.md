@@ -141,6 +141,7 @@ LeetCode Solutions
 ## Binary Search
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [C++](./C++/SearchinRotatedSortedArray.cpp) <br>[Java](./Java/SearchinRotatedSortedArray.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [C++](./C++/FindMinimuminRotatedSortedArray.cpp) <br>[Java](./Java/FindMinimuminRotatedSortedArray.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[Java](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)| [C++](./C++/BinarySearch.cpp) <br>[Java](./Java/BinarySearch.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
