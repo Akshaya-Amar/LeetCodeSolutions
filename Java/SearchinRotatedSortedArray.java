@@ -20,6 +20,7 @@ class Solution {
 
     // find the index of minimum element in nums
     int start = 0;
+    int firstElement = nums[0];
     while(start < end) {
 
       int mid = (start + end) >> 1;
@@ -30,29 +31,31 @@ class Solution {
         break;
       }
 
-      if(nums[mid] > nums[end]) { // to search in right sorted part
+      if(nums[mid] >= firstElement) { // to search in right sorted part
         start = mid + 1;
       } else { // to search in left sorted part
         end = mid;
       }
     }
 
-    // if the minimum element is equal to the the target, then directly return it's index
+    // store the index of min element in nums
     int indexOfMinElement = start;
+    // if the minimum element is equal to the the target, then
     if(nums[indexOfMinElement] == target) {
-      return indexOfMinElement;
+      return indexOfMinElement; //directly return it's index
     }
 
     start = 0;
     end = nums.length - 1;
 
     // if the target element is on the right sorted part, then
-    if(target > nums[indexOfMinElement] && target <= nums[end]) {
+    if(target < firstElement) {
       start = indexOfMinElement; // search from index of minimum element to the end of the array(nums)
     } else { // if the target element is on the left side of the sorted array
       end = indexOfMinElement - 1; // search from 0 to one previous element from index of minimum element
     }
 
+    // now as we know which sorted part(left or right) to search, do standard binary search
     // search for the index of target if the target is present in the nums, else return -1
     return indexOfTarget(nums, start, end, target);
   }
@@ -79,7 +82,7 @@ class Solution {
   }
 }
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // solution without comments
 class Solution {
@@ -91,6 +94,7 @@ class Solution {
     }
 
     int start = 0;
+    int firstElement = nums[0];
     while(start < end) {
 
       int mid = (start + end) >> 1;
@@ -100,7 +104,7 @@ class Solution {
         break;
       }
 
-      if(nums[mid] > nums[end]) {
+      if(nums[mid] >= firstElement) {
         start = mid + 1;
       } else {
         end = mid;
@@ -114,7 +118,7 @@ class Solution {
 
     start = 0;
     end = nums.length - 1;
-    if(target > nums[indexOfMinElement] && target <= nums[end]) {
+    if(target < firstElement) {
       start = indexOfMinElement;
     } else {
       end = indexOfMinElement - 1;

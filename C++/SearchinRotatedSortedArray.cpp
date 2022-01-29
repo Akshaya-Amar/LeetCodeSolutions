@@ -21,43 +21,47 @@ public:
 
     // find the index of minimum element in nums
     int start = 0;
+    int firstElement = nums[0];
     while(start < end) {
 
       int mid = (start + end) >> 1;
 
       // if the current element is minimum, then store it's index and stop iteration
       if(mid > 0 && nums[mid] < nums[mid - 1]) {
-      start = mid;
-      break;
+        start = mid;
+        break;
+      }
+
+      if(nums[mid] >= firstElement) { // to search in right sorted part
+        start = mid + 1;
+      } else { // to search in left sorted part
+        end = mid;
+      }
     }
 
-    if(nums[mid] > nums[end]) { // to search in right sorted part
-      start = mid + 1;
-    } else { // to search in left sorted part
-      end = mid;
+    // store the index of min element in nums
+    int indexOfMinElement = start;
+    // if the minimum element is equal to the the target, then directly return it's index
+    if(nums[indexOfMinElement] == target) {
+      return indexOfMinElement;
     }
+
+    start = 0;
+    end = nums.size() - 1;
+
+    // if the target element is on the right sorted part, then
+    if(target < firstElement) {
+      start = indexOfMinElement; // search from index of minimum element to the end of the array(nums)
+    } else { // if the target element is on the left side of the sorted array
+      end = indexOfMinElement - 1; // search from 0 to one previous element from index of minimum element
+    }
+
+    // now as we know which sorted part(left or right) to search, do standard binary search
+    // search for the index of target if the target is present in the nums, else return -1
+    return indexOfTarget(nums, start, end, target);
   }
 
-  // if the minimum element is equal to the the target, then directly return it's index
-  int indexOfMinElement = start;
-  if(nums[indexOfMinElement] == target) {
-    return indexOfMinElement;
-  }
-
-  start = 0;
-  end = nums.size() - 1;
-
-  // if the target element is on the right sorted part, then
-  if(target > nums[indexOfMinElement] && target <= nums[end]) {
-    start = indexOfMinElement; // search from index of minimum element to the end of the array(nums)
-  } else { // if the target element is on the left side of the sorted array
-    end = indexOfMinElement - 1; // search from 0 to one previous element from index of minimum element
-  }
-
-  // search for the index of target if the target is present in the nums, else return -1
-  return indexOfTarget(nums, start, end, target);
-}
-
+  // standard binary search
 private:
   int indexOfTarget(vector<int>& nums, int start, int end, int target) {
 
@@ -80,7 +84,7 @@ private:
   }
 };
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // solution without comments
 class Solution {
@@ -93,6 +97,7 @@ public:
     }
 
     int start = 0;
+    int firstElement = nums[0];
     while(start < end) {
 
       int mid = (start + end) >> 1;
@@ -102,7 +107,7 @@ public:
         break;
       }
 
-      if(nums[mid] > nums[end]) {
+      if(nums[mid] >= firstElement) {
         start = mid + 1;
       } else {
         end = mid;
@@ -116,7 +121,8 @@ public:
 
     start = 0;
     end = nums.size() - 1;
-    if(target > nums[indexOfMinElement] && target <= nums[end]) {
+
+    if(target < firstElement) {
       start = indexOfMinElement;
     } else {
       end = indexOfMinElement - 1;
