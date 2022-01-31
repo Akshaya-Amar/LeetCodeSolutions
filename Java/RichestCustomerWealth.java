@@ -10,21 +10,21 @@ Space: O(1), in-place
 class Solution {
   public int maximumWealth(int[][] accounts) {
 
-    int max = 0;
+    int maxWealth = 0;
 
-    for(int[] customer : accounts) {
+    for(int[] customerAccount : accounts) {
 
-      int sum = 0;
+      int totalCustomerWealth = 0;
 
-      for(int wealth : customer) {
-        sum += wealth;
+      for(int wealth : customerAccount) {
+        totalCustomerWealth += wealth;
       }
 
-      if(sum > max) {
-        max = sum;
+      if(totalCustomerWealth > maxWealth) {
+        maxWealth = totalCustomerWealth;
       }
     }
 
-    return max;
+    return maxWealth;
   }
 }

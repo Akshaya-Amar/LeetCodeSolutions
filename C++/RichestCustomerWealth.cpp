@@ -11,21 +11,21 @@ class Solution {
 public:
   int maximumWealth(vector<vector<int>>& accounts) {
 
-    int max = 0;
+    int maxWealth = 0;
 
-    for (auto &customer : accounts) {
+    for(auto &customerAccount : accounts) {
 
-      int sum = 0;
+      int totalCustomerWealth = 0;
 
-      for(int wealth : customer) {
-        sum += wealth;
+      for(int wealth : customerAccount) {
+        totalCustomerWealth += wealth;
       }
 
-      if(sum > max) {
-        max = sum;
+      if(totalCustomerWealth > maxWealth) {
+        maxWealth = totalCustomerWealth;
       }
     }
 
-    return max;
+    return maxWealth;
   }
 };
