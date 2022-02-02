@@ -13,7 +13,6 @@ public:
 
     int minStockPrice = prices[0];
     int maxProfit = 0;
-    int profit = 0;
     int size = prices.size();
 
     for(int i = 0; i < size; ++i) {
@@ -22,7 +21,11 @@ public:
 
       if(stockPrice < minStockPrice) {
         minStockPrice = stockPrice;
-      } else if((profit = stockPrice - minStockPrice) > maxProfit) {
+        continue;
+      }
+
+      int profit = stockPrice - minStockPrice;
+      if(profit > maxProfit) {
         maxProfit = profit;
       }
     }

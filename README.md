@@ -13,6 +13,11 @@ LeetCode Solutions
 * [Two Pointers](https://github.com/Akshaya-Amar/LeetCodeSolutions#two-pointers)
 * [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamic-programming)
 
+## Most Voted Solutions
+| # | Title | Explanation | Complexity | Difficulty |
+|:---:| ----- | :--------: | :----------: | :----------: |
+|1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/)| [Explained Solution](https://leetcode.com/problems/shuffle-the-array/discuss/1314638/JAVA-C%2B%2B-%3A-Simple-or-O(1)-Space-In-Place-or-100-Faster-or-Efficient-or-Explained) | Time - **O(log<sub>10</sub>(n))** <br>Space - **O(1)**| Easy
+
 ## Explained Solutions
 | # | Title | Explanation | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |

@@ -12,7 +12,6 @@ class Solution {
 
     int minStockPrice = prices[0];
     int maxProfit = 0;
-    int profit = 0;
     int len = prices.length;
 
     for(int i = 1; i < len; ++i) {
@@ -21,7 +20,11 @@ class Solution {
 
       if(stockPrice < minStockPrice) {
         minStockPrice = stockPrice;
-      } else if((profit = stockPrice - minStockPrice) > maxProfit) {
+        continue;
+      }
+
+      int profit = stockPrice - minStockPrice;
+      if(profit > maxProfit) {
         maxProfit = profit;
       }
     }
