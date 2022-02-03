@@ -3,7 +3,7 @@
 Source: https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
 Time: O(n), where n is the length of the given string(s)
-Space: O(n)
+Space: O(n), we need a list to store the starting indices of anagrams
 
 */
 

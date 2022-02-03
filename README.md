@@ -13,7 +13,7 @@ LeetCode Solutions
 * [Two Pointers](https://github.com/Akshaya-Amar/LeetCodeSolutions#two-pointers)
 * [Dynamic Programming](https://github.com/Akshaya-Amar/LeetCodeSolutions#dynamic-programming)
 
-## Most Voted Solutions
+## My Most Voted Solutions
 | # | Title | Explanation | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n/)| [Explained Solution](https://leetcode.com/problems/powx-n/discuss/1337794/java-c-simple-o-logn-easy-faster-than-100-efficient-explained) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
@@ -101,6 +101,7 @@ LeetCode Solutions
 |205|[Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)| [C++](./C++/IsomorphicStrings.cpp) <br> [JAVA](./Java/IsomorphicStrings.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/)| [JAVA](./Java/WordPattern.java) |Time - **O(n * m)** <br>Space - **O(n)**| Easy
 |344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[C++](./C++/ReverseString.cpp)<br>[JAVA](./Java/ReverseString.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[JAVA](./Java/FindAllAnagramsinaString.java) |Time - **O(n)** <br>Space - **O(n)**| Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C++](./C++/DetectCapital.cpp) <br> [JAVA](./Java/DetectCapital.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [C++](./C++/ValidPalindromeII.cpp) <br> [JAVA](./Java/ValidPalindromeII.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
