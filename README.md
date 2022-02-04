@@ -15,10 +15,10 @@ LeetCode Solutions
 
 ## My Most Voted Solutions
 | # | Title | Explanation | Existence | Complexity | Difficulty |
-|:---:| ----- | :--------: | :----------: | :----------: |
-| 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Detailed Explanation](https://leetcode.com/problems/powx-n/discuss/1337794/java-c-simple-o-logn-easy-faster-than-100-efficient-explained) | [1st page under Most Voted Category](https://leetcode.com/problems/powx-n/discuss?currentPage=1&orderBy=most_votes&query=) | Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)** | Medium
-| 190 | [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Detailed Explanation] | [1st page under Most Voted Category](https://leetcode.com/problems/reverse-bits/discuss/?currentPage=1&orderBy=most_votes&query=) | (https://leetcode.com/problems/reverse-bits/discuss/1232842/JAVA-C%2B%2B-%3A-0ms-or-O(1)-Time-Complexity-or-in-place-or-Detailed-Explanation) | Time - **O(1)** <br>Space - **O(1)** | Easy
-| 1470 |[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Detailed Explanation] | [1st page under Most Voted Category](https://leetcode.com/problems/shuffle-the-array/discuss?currentPage=1&orderBy=most_votes&query=) |(https://leetcode.com/problems/shuffle-the-array/discuss/1314638/JAVA-C%2B%2B-%3A-Simple-or-O(1)-Space-In-Place-or-100-Faster-or-Efficient-or-Explained) | Time - **O(n)** <br>Space - **O(1)** | Easy
+|:---:| ----- | :--------: | :----------: | :----------: | :----------: |
+|50| [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [Detailed Explanation](https://leetcode.com/problems/powx-n/discuss/1337794/java-c-simple-o-logn-easy-faster-than-100-efficient-explained) | [1st page under Most Voted Category](https://leetcode.com/problems/powx-n/discuss?currentPage=1&orderBy=most_votes&query=) | Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)** | Medium
+|190| [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | [Detailed Explanation](https://leetcode.com/problems/reverse-bits/discuss/1232842/JAVA-C%2B%2B-%3A-0ms-or-O(1)-Time-Complexity-or-in-place-or-Detailed-Explanation) | [1st page under Most Voted Category](https://leetcode.com/problems/reverse-bits/discuss/?currentPage=1&orderBy=most_votes&query=) | Time - **O(1)** <br>Space - **O(1)** | Easy
+|1470| [Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/) | [Detailed Explanation](https://leetcode.com/problems/shuffle-the-array/discuss/1314638/JAVA-C%2B%2B-%3A-Simple-or-O(1)-Space-In-Place-or-100-Faster-or-Efficient-or-Explained) | [1st page under Most Voted Category](https://leetcode.com/problems/shuffle-the-array/discuss?currentPage=1&orderBy=most_votes&query=) | Time - **O(n)** <br>Space - **O(1)** | Easy
 
 ## Explained Solutions
 | # | Title | Explanation | Complexity | Difficulty |
