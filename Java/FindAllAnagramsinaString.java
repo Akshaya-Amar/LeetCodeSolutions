@@ -20,7 +20,7 @@ class Solution {
     char[] hash = new char[26];
 
     for(int i = 0; i < pLen; i++) {
-      hash[p.charAt(i) - 'a']++;
+      ++hash[p.charAt(i) - 'a'];
     }
 
     int left = 0;
