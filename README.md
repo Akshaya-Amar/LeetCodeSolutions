@@ -53,12 +53,10 @@ LeetCode Solutions
 |1688|[Count of Matches in Tournament](https://leetcode.com/problems/count-of-matches-in-tournament/)|[C++](./C++/CountofMatchesinTournament.cpp) <br>[JAVA](./Java/CountofMatchesinTournament.java) |Time - **O(1)** <br>Space - **O(1)**| Easy | Simulation
 
 ## Bit Manipulation
-| # | Title | Solution | Complexity | Difficulty |
-|:---:| ----- | :--------: | :----------: | :----------: |
+| # | Title | Solution | Complexity | Difficulty | Tags |
+|:---:| ----- | :--------: | :----------: | :----------: | :----------: |
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [C++](./C++/NumberOfSetBits.cpp) <br>[JAVA](./Java/NumberOfSetBits.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
-|231|[Power Of Two](https://leetcode.com/problems/power-of-two/)| [C++](./C++/PowerOfTwo.cpp) <br> [JAVA](./Java/PowerOfTwo.java) |Time - **O(1)** <br>Space - **O(1)**| Easy
 |476|[Number Complement](https://leetcode.com/problems/number-complement/)| [C++](./C++/NumberComplement.cpp) <br> [JAVA](./Java/NumberComplement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
-|1720|[Decode XORed Array](https://leetcode.com/problems/decode-xored-array/)|[C++](./C++/DecodeXORedArray.cpp) <br>[JAVA](./Java/DecodeXORedArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1009|[Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)| [C++](./C++/ComplementofBase10Integer.cpp) <br> [JAVA](./Java/ComplementofBase10Integer.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy
 
 ## Array
