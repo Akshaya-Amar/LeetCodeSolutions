@@ -10,11 +10,10 @@ Space: O(n), char arrays for both strings(s and t) are needed to access char ele
 class Solution {
   public char findTheDifference(String s, String t) {
 
-    int len = s.length();
-    char addedLetter = t.charAt(len);
-
     char[] sChars = s.toCharArray();
     char[] tChars = t.toCharArray();
+    int len = s.length();
+    char addedLetter = tChars[len];
 
     for(int i = 0; i < len; ++i) {
       addedLetter ^= sChars[i] ^ tChars[i];
