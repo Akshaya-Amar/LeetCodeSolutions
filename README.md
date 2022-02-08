@@ -134,13 +134,12 @@ LeetCode Solutions
 |2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[ Explanation](https://leetcode.com/problems/capitalize-the-title/discuss/1675922/java-c-pictorial-explanation-easy-simple-faster-than-100)<br>[C++](./C++/CapitalizetheTitle.cpp)<br>[JAVA](./Java/CapitalizetheTitle.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 
 ## Matrix
-| # | Title | Solution | Complexity | Difficulty |
-|:---:| ----- | :--------: | :----------: | :----------: |
-|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[C++](./C++/ReshapetheMatrix.cpp) <br>[JAVA](./Java/ReshapetheMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
-|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./C++/TransposeMatrix.cpp) <br>[JAVA](./Java/TransposeMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
-|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./C++/MatrixDiagonalSum.cpp) <br>[JAVA](./Java/MatrixDiagonalSum.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[C++](./C++/SpecialPositionsinaBinaryMatrix.cpp) <br>[JAVA](./Java/SpecialPositionsinaBinaryMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
-|1672|[Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/)|[C++](./C++/RichestCustomerWealth.cpp) <br>[JAVA](./Java/RichestCustomerWealth.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
+| # | Title | Solution | Complexity | Difficulty | Tags |
+|:---:| ----- | :--------: | :----------: | :----------: | :----------: |
+|566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[C++](./C++/ReshapetheMatrix.cpp) <br>[JAVA](./Java/ReshapetheMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy | Array, Simulation
+|867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./C++/TransposeMatrix.cpp) <br>[JAVA](./Java/TransposeMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy | Array, Simulation
+|1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./C++/MatrixDiagonalSum.cpp) <br>[JAVA](./Java/MatrixDiagonalSum.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Array
+|1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[C++](./C++/SpecialPositionsinaBinaryMatrix.cpp) <br>[JAVA](./Java/SpecialPositionsinaBinaryMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy | Array
 
 ## Hash Table
 | # | Title | Solution | Complexity | Difficulty |
