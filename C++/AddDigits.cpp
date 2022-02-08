@@ -2,14 +2,12 @@
 
 Source: https://leetcode.com/problems/add-digits/
 
+1st approach(brute force)
+
+Time: O(log base10 n), where n is the given integer(num) and O(log base10 n) means the maximum possible iterations
+Space: O(1), in-place
+
 */
-
-** Three Approaches **
-
-# 1st approach(brute force)
-
-# Time: O(log base10 n), where n is the given integer(num) and O(log base10 n) means the maximum possible iterations
-# Space: O(1), in-place
 
 class Solution {
 public:
@@ -32,13 +30,15 @@ public:
     return num;
   }
 };
+----------------------------------------------------------------
 
+/*
+2nd approach(optimized)
 
-# 2nd approach(optimized)
+Time: O(1), constant time
+Space: O(1), in-place
 
-# Time: O(1), constant time
-# Space: O(1), in-place
-
+*/
 class Solution {
 public:
   int addDigits(int num) {
@@ -52,13 +52,15 @@ public:
     return rem;
   }
 };
+----------------------------------------------------------------
 
+/*
+3rd approach(most optimized)
 
-# 3rd approach(most optimized)
+Time: O(1), constant time
+Space: O(1), in-place
 
-# Time: O(1), constant time
-# Space: O(1), in-place
-
+*/
 class Solution {
 public:
   int addDigits(int num) {

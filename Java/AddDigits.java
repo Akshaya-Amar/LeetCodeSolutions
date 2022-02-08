@@ -2,11 +2,6 @@
 
 Source: https://leetcode.com/problems/add-digits/
 
-*/
-
-Three Approaches
-
-/*
 1st approach(brute force)
 
 Time: O(log base10 n), where n is the given integer(num) and O(log base10 n) means the maximum possible iterations
@@ -31,6 +26,7 @@ class Solution {
     return num;
   }
 }
+----------------------------------------------------------------
 
 /*
 2nd approach(optimized)
@@ -51,7 +47,7 @@ class Solution {
     return rem;
   }
 }
-
+----------------------------------------------------------------
 
 /*
 3rd approach(most optimized)
