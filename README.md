@@ -173,8 +173,8 @@ LeetCode Solutions
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [C++](./C++/RemoveDuplicatesfromSortedArrayII.cpp) <br>[JAVA](./Java/RemoveDuplicatesfromSortedArrayII.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 
 ## Dynamic Programming
-| # | Title | Solution | Complexity | Difficulty |
-|:---:| ----- | :--------: | :----------: | :----------: |
-|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)| [C++](./C++/UglyNumberII.cpp) <br> [JAVA](./Java/UglyNumberII.java) |Time - **O(n)** <br>Space - **O(n)**| Medium
-|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [JAVA](./Java/NthTribonacciNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
-|1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[JAVA](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+| # | Title | Solution | Complexity | Difficulty | Tags |
+|:---:| ----- | :--------: | :----------: | :----------: | :----------: |
+|264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)| [C++](./C++/UglyNumberII.cpp) <br> [JAVA](./Java/UglyNumberII.java) |Time - **O(n)** <br>Space - **O(n)**| Medium | HashTable, Math, Heap(Priority Queue)
+|1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [JAVA](./Java/NthTribonacciNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Math, Memoization
+|1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[JAVA](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Array, Simulation
