@@ -143,16 +143,15 @@ LeetCode Solutions
 |1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[C++](./C++/SpecialPositionsinaBinaryMatrix.cpp) <br>[JAVA](./Java/SpecialPositionsinaBinaryMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy | Array
 
 ## Hash Table
-| # | Title | Solution | Complexity | Difficulty |
-|:---:| ----- | :--------: | :----------: | :----------: |
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [JAVA](./Java/TwoSum.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
-|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[JAVA](./Java/GroupAnagrams.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
-|500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
-|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[JAVA](./Java/UniqueNumberofOccurrences.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
-|1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[JAVA](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy
-|2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[JAVA](./Java/KthDistinctStringinanArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
-|2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[JAVA](./Java/CountCommonWordsWithOneOccurrence.java) |Time - **O(n + m)** <br>Space - **O(n)**| Easy
-
+| # | Title | Solution | Complexity | Difficulty | Tags |
+|:---:| ----- | :--------: | :----------: | :----------: | :----------: |
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [JAVA](./Java/TwoSum.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Array
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[JAVA](./Java/GroupAnagrams.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium | String, Sorting
+|500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Array, String
+|1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[JAVA](./Java/UniqueNumberofOccurrences.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Array
+|1365|[How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)| [C++](./C++/HowManyNumbersAreSmallerThantheCurrentNumber.cpp) <br>[JAVA](./Java/HowManyNumbersAreSmallerThantheCurrentNumber.java) |Time - **O(n + m)** <br>Space - **O(m)**| Easy | Array, Sorting, Counting
+|2053|[Kth Distinct String in an Array](https://leetcode.com/problems/kth-distinct-string-in-an-array/)|[JAVA](./Java/KthDistinctStringinanArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Array, String, Counting
+|2085|[Count Common Words With One Occurrence](https://leetcode.com/problems/count-common-words-with-one-occurrence/)|[JAVA](./Java/CountCommonWordsWithOneOccurrence.java) |Time - **O(n + m)** <br>Space - **O(n)**| Easy | Array, String, Counting
 
 ## Binary Search
 | # | Title | Solution | Complexity | Difficulty | Tags |
