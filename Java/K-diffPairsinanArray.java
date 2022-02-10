@@ -15,14 +15,14 @@ class Solution {
       map.put(num, map.getOrDefault(num, 0) + 1);
     }
 
-    int count = 0;
+    int uniquePairs = 0;
     for(Integer key : map.keySet()) {
 
       if((k > 0 && map.containsKey(key + k)) || (k == 0 && map.get(key) > 1)) {
-        ++count;
+        ++uniquePairs;
       }
     }
 
-    return count;
+    return uniquePairs;
   }
 }
