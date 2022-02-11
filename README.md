@@ -111,7 +111,8 @@ LeetCode Solutions
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/)| [C++](./C++/FindtheDifference.cpp) <br> [JAVA](./Java/FindtheDifference.java) | Time - **O(n)** <br>Space - **O(1)** | Easy
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)|[JAVA](./Java/FindAllAnagramsinaString.java) |Time - **O(n)** <br>Space - **O(n)**| Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
-|520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C++](./C++/DetectCapital.cpp) <br> [JAVA](./Java/DetectCapital.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
+|520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C++](./C++/DetectCapital.cpp) <br> [JAVA](./Java/DetectCapital.java) | Time - **O(n)** <br> Space - **O(1)** | Easy
+|567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [JAVA](./Java/PermutationinString.java) | Time - **O(n + m)** <br> Space - **O(n + m)** | Medium
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [C++](./C++/ValidPalindromeII.cpp) <br> [JAVA](./Java/ValidPalindromeII.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [JAVA](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[JAVA](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
