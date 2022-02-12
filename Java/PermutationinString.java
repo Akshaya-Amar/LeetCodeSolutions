@@ -17,47 +17,32 @@ class Solution {
       return false;
     }
 
-    char[] s1CharArray = s1.toCharArray();
-    char[] s2CharArray = s2.toCharArray();
-
     char[] s1CharFreq = new char[26];
+    char[] s2CharFreq = new char[26];
+    char[] s1Chars = s1.toCharArray();
+    char[] s2Chars = s2.toCharArray();
+
     for(int i = 0; i < s1Len; ++i) {
-      ++s1CharFreq[s1CharArray[i] - 'a'];
+      ++s1CharFreq[s1Chars[i] - 'a'];
+      ++s2CharFreq[s2Chars[i] - 'a'];
     }
 
-    int maxLen = s2Len - s1Len;
-    for(int i = 0; i <= maxLen; ++i) {
+    for(int i = s1Len; i < s2Len; ++i) {
 
-      if(s1CharFreq[s2CharArray[i] - 'a'] != 0) {
-
-        char[] s2CharFreq = new char[26];
-        ++s2CharFreq[s2CharArray[i] - 'a'];
-
-        int j;
-        for(j = 1; j < s1Len; ++j) {
-
-          int s2Char = s2CharArray[i + j] - 'a';
-
-          if(s1CharFreq[s2Char] == 0) {
-            break;
-          } else {
-            ++s2CharFreq[s2Char];
-          }
-        }
-
-        if(j == s1Len && isPerm(s1CharFreq, s2CharFreq)) {
-          return true;
-        }
+      if(isPerm(s1CharFreq, s2CharFreq)) {
+        return true;
       }
+
+      ++s2CharFreq[s2Chars[i] - 'a'];
+      --s2CharFreq[s2Chars[i - s1Len] - 'a'];
     }
 
-    return false;
+    return isPerm(s1CharFreq, s2CharFreq);
   }
 
   private boolean isPerm(char[] s1CharFreq, char[] s2CharFreq) {
 
     for(int i = 0; i < 26; ++i) {
-
       if(s1CharFreq[i] != s2CharFreq[i]) {
         return false;
       }
