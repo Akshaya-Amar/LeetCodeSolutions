@@ -2,8 +2,8 @@
 
 Source: https://leetcode.com/problems/permutation-in-string/
 
-Time: O(n + m), where n and m are the lengths of the given string s1 and string s2 respectively
-Space: O(n + m), we need char array for both the string i.e. s1 and s2 
+Time: O(n * m), where n and m are the lengths of the given string s2 and total number lower case english letters(26) respectively
+Space: O(n + k), we need char array for both the string i.e. s1 and s2
 
 */
 
