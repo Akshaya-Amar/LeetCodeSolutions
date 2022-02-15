@@ -38,6 +38,8 @@ What XOR property says?
 
 /*
 
+2nd approach using a single variable
+
 Time: O(n), where n is the size of the given array(nums)
 Space: O(1), in-place
 
@@ -58,6 +60,8 @@ class Solution {
 
 
 /*
+
+3rd approach without using any extra variable
 
 Time: O(n), where n is the size of the given array(nums)
 Space: O(1), in-place
