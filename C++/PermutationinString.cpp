@@ -47,7 +47,7 @@ public:
 
 2nd approach (More optimized as we are using only a single vector(charFreq))
 
-Time: (n * m), where m is total number lower case english letters(26) and n is the length of the given string s2
+Time: (m * n), where m is total number lower case english letters(26) and n is the length of the given string s2
 Space: O(1), in-place
 
 */
