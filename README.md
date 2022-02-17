@@ -1,7 +1,10 @@
 LeetCode Solutions
 ========
 
-### Algorithms
+**If you find this useful, give it a** &#11088;
+
+
+## Algorithms
 * [Math](https://github.com/Akshaya-Amar/LeetCodeSolutions#math)
 * [Bit Manipulation](https://github.com/Akshaya-Amar/LeetCodeSolutions#bit-manipulation)
 * [Array](https://github.com/Akshaya-Amar/LeetCodeSolutions#array)
