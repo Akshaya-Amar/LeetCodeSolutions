@@ -2,8 +2,8 @@
 
 Source: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/
 
-Time: O(m * n), where m is the length of the given string(s) and n is the length of the string(part)
-Space: O(n), in-place
+Time: O(m * n), where m is the length of the given String(s) and n is the length of the string(part)
+Space: O(n), StringBuilder is needed to append characters of given String(s)
 
 */
 
