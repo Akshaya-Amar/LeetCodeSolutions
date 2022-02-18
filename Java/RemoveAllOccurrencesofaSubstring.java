@@ -3,6 +3,36 @@
 Source: https://leetcode.com/problems/remove-all-occurrences-of-a-substring/
 
 Time: O(m * n), where m is the length of the given string(s) and n is the length of the string(part)
+Space: O(n), in-place
+
+*/
+
+class Solution {
+  public String removeOccurrences(String s, String part) {
+
+    StringBuilder res = new StringBuilder();
+    int partLen = part.length();
+
+    for(char ch : s.toCharArray()) {
+
+      res.append(ch);
+      int resLen = res.length();
+
+      if(resLen >= partLen) {
+
+        if(res.substring(resLen - partLen).equals(part)) {
+          res.setLength(resLen - partLen);
+        }
+      }
+    }
+
+    return res.toString();
+  }
+}
+
+/*
+
+Time: O(m * n), where m is the length of the given string(s) and n is the length of the string(part)
 Space: O(1), in-place
 
 */
@@ -19,5 +49,27 @@ class Solution {
     }
 
     return s;
+  }
+}
+
+/*
+
+Time: O(m * n), where m is the length of the given string(s) and n is the length of the string(part)
+Space: O(n), for the given String(s), an equivalent StringBuider object is needed
+
+*/
+class Solution {
+  public String removeOccurrences(String s, String part) {
+
+    StringBuilder res = new StringBuilder(s);
+    int partLen = part.length();
+    int index = res.indexOf(part);
+
+    while(index != -1) {
+      res.delete(index, index + partLen);
+      index = res.indexOf(part, index - partLen); // indexOf(string, fromIndex) to avoid starting from 0
+    }
+
+    return res.toString();
   }
 }
