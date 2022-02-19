@@ -35,8 +35,8 @@ LeetCode Solutions
 |191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)| [Detailed Explanation](https://leetcode.com/problems/number-of-1-bits/discuss/1519675/JAVA-C%2B%2B-PYTHON-%3A-Simple-or-Faster-than-100-or-Detailed-Explanation) | Time - **O(1)** <br>Space - **O(1)** | Easy | Bit Manipulation
 |1431|[Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/)| [Commented Solution](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/discuss/1310558/JAVA-C%2B%2B%3A-Simple-or-0ms-or-Pure-Logic-or-Clean-or-Efficient-or-Explained) |Time - **O(n)** <br>Space - **O(n)**| Easy | Array
 |1470|[Shuffle The Array](https://leetcode.com/problems/shuffle-the-array/)|[Detailed Explanation](https://leetcode.com/problems/shuffle-the-array/discuss/1314638/JAVA-C%2B%2B-%3A-Simple-or-O(1)-Space-In-Place-or-100-Faster-or-Efficient-or-Explained)|Time - **O(n)** <br>Space - **O(1)**| Easy | Array
-|2130|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Detailed Explanation](https://leetcode.com/problems/rings-and-rods/discuss/1643445/JAVA-C%2B%2B-%3A-Explained-or-In-Place-O(1)-Space-or-Faster-than-100-or-Simple) | Time - **O(n)**<br>Space - **O(1)** | Easy | HashTable
 |2129|[Capitalize the Title](https://leetcode.com/problems/capitalize-the-title/)|[Explained Solution](https://leetcode.com/problems/capitalize-the-title/discuss/1675922/java-c-pictorial-explanation-easy-simple-faster-than-100)|Time - **O(n)** <br>Space - **O(1)**| Easy | String
+|2130|[Rings and Rods](https://leetcode.com/problems/rings-and-rods/)|[Detailed Explanation](https://leetcode.com/problems/rings-and-rods/discuss/1643445/JAVA-C%2B%2B-%3A-Explained-or-In-Place-O(1)-Space-or-Faster-than-100-or-Simple) | Time - **O(n)**<br>Space - **O(1)** | Easy | HashTable
 
 ## Math
 | # | Title | Solution | Complexity | Difficulty | Tags |
