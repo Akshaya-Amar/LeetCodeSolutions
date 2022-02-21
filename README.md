@@ -69,6 +69,7 @@ LeetCode Solutions
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./C++/BestTimetoBuyandSellStock.cpp) <br> [JAVA](./Java/BestTimetoBuyandSellStock.java) |Time - **O(n)** <br>Space - **O(1)** | Easy
 |136|[Single Number](https://leetcode.com/problems/single-number/)| [C++](./C++/SingleNumber.cpp) <br> [JAVA](./Java/SingleNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[JAVA](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium
+|169|[Majority Element](https://leetcode.com/problems/majority-element/)| [C++](./C++/MajorityElement.cpp) <br>[JAVA](./Java/MajorityElement.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./C++/RotateArray.cpp) <br> [JAVA,](./Java/RotateArray.java) <br> [Explanation](https://github.com/Akshaya-Amar/LeetCodeSolutions#explained-solutions) | Time - **O(n)** <br>Space - **O(1)** | Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(n)** | Easy
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)| [C++](./C++/ContiguousArray.cpp)<br>[JAVA](./Java/ContiguousArray.java) | Time - **O(n)** <br> Space - **O(n)** | Medium
