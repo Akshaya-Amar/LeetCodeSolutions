@@ -14,8 +14,8 @@ class Solution {
     int len = columnTitle.length();
 
     for(int i = 0; i < len; ++i) {
-      int currentCharacter = columnTitle.charAt(i) - 'A' + 1;
-      columnNumber = (columnNumber * 26) + currentCharacter;
+      int currentLetterMapping = columnTitle.charAt(i) - 'A' + 1;
+      columnNumber = (columnNumber * 26) + currentLetterMapping;
     }
 
     return columnNumber;

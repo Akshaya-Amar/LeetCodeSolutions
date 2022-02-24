@@ -13,8 +13,8 @@ public:
 
     int columnNumber = 0;
     for(char ch : columnTitle) {
-      int currentCharacter = ch - 'A' + 1;
-      columnNumber = (columnNumber * 26) + currentCharacter;
+      int currentLetterMapping = ch - 'A' + 1;
+      columnNumber = (columnNumber * 26) + currentLetterMapping;
     }
 
     return columnNumber;
