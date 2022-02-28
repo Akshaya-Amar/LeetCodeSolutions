@@ -2,7 +2,28 @@
 
 Source: https://leetcode.com/problems/summary-ranges/
 
-1st approach
+Basic Idea:
+Get the first and last index of range
+eg:
+nums[] = {1,2,3,5,7,8}
+Here, first index of range is 0(for element 1) and
+the last index of range is 2(for element 3)
+Now, since first and last index here are not equal(i.e. firstIndexOfRange != lastIndexOfRange),
+append the element at start index of range with the element at last index of range
+i.e. "1->3"
+
+But what if there is only single element in the range
+eg:
+nums[] = {1,2,3,5,7,8}
+Here, element 5 at 3rd index is the only single element in it's range
+In this case, the first and last index of the range will be same. So,
+append only that element i.e. "5"
+
+*/
+
+/*
+
+1st approach (Two pointer)
 
 Time: O(n), where n is the size of the given array (nums)
 Space: O(1), in-place, though we are using extra List(rangeList), but we will still treat space as O(1) and not O(n)
@@ -47,7 +68,7 @@ class Solution {
 
 /*
 
-2nd approach (More Optimized)
+2nd approach (Two pointer, but more Optimized)
 
 Time: O(n), where n is the size of the given array (nums)
 Space: O(1), in-place, though we are using extra List(rangeList), but we will still treat space as O(1) and not O(n)
