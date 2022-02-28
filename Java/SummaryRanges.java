@@ -46,7 +46,7 @@ class Solution {
 
       int rangeStartIndex  = i;
 
-      // to get the last index of sorted list
+      // to get the last index of range
       while((i + 1) < len && nums[i] == nums[i + 1] - 1) {
         ++i;
       }
@@ -92,7 +92,7 @@ class Solution {
       range.append(nums[i]);
       int rangeStartIndex = ++i;
 
-      // to get the last index of sorted list
+      // to get the last index of range
       while(i < len && nums[i] == nums[i - 1] + 1) {
         ++i;
       }
