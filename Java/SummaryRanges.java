@@ -12,6 +12,9 @@ class Solution {
   public List<String> summaryRanges(int[] nums) {
 
     int len = nums.length;
+    if(len == 0) {
+      return new ArrayList<>();
+    }
 
     StringBuilder range = new StringBuilder();
     List rangesList = new ArrayList<>();
