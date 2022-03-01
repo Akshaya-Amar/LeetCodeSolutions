@@ -1,3 +1,14 @@
+/*
+
+Source: https://leetcode.com/problems/counting-bits/
+
+1st Approach (brute force)
+
+Time: O(n log base 2 n)
+Space: O(n), array of size n is required
+
+*/
+
 class Solution {
   public int[] countBits(int n) {
 
@@ -25,6 +36,14 @@ class Solution {
   }
 }
 
+/*
+
+2nd Approach (optimized approach)
+
+Time: O(n)
+Space: O(n), array of size n is required
+
+*/
 
 class Solution {
   public int[] countBits(int n) {
@@ -44,6 +63,15 @@ class Solution {
 
   }
 }
+
+/*
+
+3rd Approach (more optimized than 2nd approach without using if/else condition)
+
+Time: O(n)
+Space: O(n), array of size n is required
+
+*/
 
 class Solution {
   public int[] countBits(int n) {
