@@ -185,5 +185,6 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty | Tags |
 |:---:| ----- | :--------: | :----------: | :----------: | :----------: |
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)| [C++](./C++/UglyNumberII.cpp) <br> [JAVA](./Java/UglyNumberII.java) |Time - **O(n)** <br>Space - **O(n)**| Medium | HashTable, Math, Heap(Priority Queue)
+|338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [C++](./C++/CountingBits.cpp) <br> [JAVA](./Java/CountingBits.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Bit Manipulation
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [JAVA](./Java/NthTribonacciNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Math, Memoization
 |1646|[Get Maximum in Generated Array](https://leetcode.com/problems/get-maximum-in-generated-array/)|[C++](./C++/GetMaximuminGeneratedArray.cpp) <br>[JAVA](./Java/GetMaximuminGeneratedArray.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Array, Simulation
