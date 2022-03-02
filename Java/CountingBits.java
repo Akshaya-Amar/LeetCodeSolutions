@@ -95,12 +95,12 @@ decimal  binary
   10  -->  1010 (2 set bits)
 
 when number is even
-suppose x = 6, now x / 2 = 3, here number of bits in x(i.e. 6) are 2 and set bits in x / 2(i.e. 3) are also 2
-so, we can say that when number is even, number of bits in x = number of bits in (x / 2)
+suppose x = 6, now x / 2 = 3, here number of set bits in x(i.e. 6) are 2 and set bits in x / 2(i.e. 3) are also 2
+so, we can say that when number is even, number of set bits in x = number of set bits in (x / 2)
 
 and when number is odd
 suppose x = 9, now x - 1 = 8, here number of set bits in x(i.e. 9) are 2 and set bits in x - 1(i.e. 8) are 1
-so, we can say that when number is odd, number of bits in x = number of bits in (x - 1) + 1
+so, we can say that when number is odd, number of set bits in x = number of set bits in (x - 1) + 1
 
 Based on this observation, we can solve this problem in O(n)
 
@@ -151,12 +151,12 @@ decimal  binary
   10  -->  1010 (2 set bits)
 
 when number is even
-suppose x = 6, now x / 2 = 3, here number of bits in x(i.e. 6) are 2 and set bits in x / 2(i.e. 3) are also 2
-so, we can say that when number is even, number of bits in x = number of bits in (x / 2)
+suppose x = 6, now x / 2 = 3, here number of set bits in x(i.e. 6) are 2 and set bits in x / 2(i.e. 3) are also 2
+so, we can say that when number is even, number of set bits in x = number of bits in (x / 2)
 
 and when number is odd
 suppose x = 9, now x / 2 = 4, here number of set bits in x(i.e. 9) are 2, but set bits in x / 2(i.e. 4) are 1
-so, we can say that when number is odd, number of bits in x = number of bits in (x / 2) + 1
+so, we can say that when number is odd, number of set bits in x = number of set bits in (x / 2) + 1
 
 Based on this observation, we can solve this problem in O(n)
 
