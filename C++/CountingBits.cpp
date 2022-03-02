@@ -183,7 +183,7 @@ public:
 
 /*
 
-5th Approach (more optimized than 2nd approach without using if/else condition)
+5th Approach (more optimized than 4th approach without using if/else condition)
 
 Time: O(n)
 Space: O(n), vector of size n is required
