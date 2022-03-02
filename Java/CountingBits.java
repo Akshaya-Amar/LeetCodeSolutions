@@ -23,7 +23,7 @@ class Solution {
 
       while(num != 0) {
 
-        if((num & 1) != 0) {
+        if((num & 1) != 0) { // is equivalent to num % 2 != 0 to check whether the number is even or odd
           ++setBits;
         }
 
@@ -70,15 +70,6 @@ class Solution {
     return res;
   }
 }
-
-/*
-
-2nd Approach (optimized approach)
-
-Time: O(n)
-Space: O(n), array of size n is required
-
-*/
 
 /*
 
