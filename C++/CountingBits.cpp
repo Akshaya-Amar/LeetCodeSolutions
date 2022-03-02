@@ -86,17 +86,17 @@ public:
 A number can be either even or odd, and
 Last bit of even number is 0 and odd number is 1
 
-decimal  binary
-  1   -->   1 (1 set bit)
-  2   -->   10 (1 set bit)
-  3   -->   11 (2 set bits)
-  4   -->   100 (1 set bit)
-  5   -->   101 (2 set bits)
-  6   -->   110 (2 set bits)
-  7   -->   111 (3 set bits)
-  8   -->   1000 (1 set bit)
-  9   -->   1001 (2 set bits)
-  10  -->  1010 (2 set bits)
+ decimal           binary
+   1     -->     1 (1 set bit)
+   2     -->    10 (1 set bit)
+   3     -->    11 (2 set bits)
+   4     -->   100 (1 set bit)
+   5     -->   101 (2 set bits)
+   6     -->   110 (2 set bits)
+   7     -->   111 (3 set bits)
+   8     -->  1000 (1 set bit)
+   9     -->  1001 (2 set bits)
+  10     -->  1010 (2 set bits)
 
 when number is even
 suppose x = 6, now x / 2 = 3, here number of set bits in x(i.e. 6) are 2 and set bits in x / 2(i.e. 3) are also 2
@@ -142,21 +142,21 @@ public:
 A number can be either even or odd, and
 Last bit of even number is 0 and odd number is 1
 
-decimal  binary
-  1   -->   1 (1 set bit)
-  2   -->   10 (1 set bit)
-  3   -->   11 (2 set bits)
-  4   -->   100 (1 set bit)
-  5   -->   101 (2 set bits)
-  6   -->   110 (2 set bits)
-  7   -->   111 (3 set bits)
-  8   -->   1000 (1 set bit)
-  9   -->   1001 (2 set bits)
-  10  -->  1010 (2 set bits)
+decimal           binary
+  1     -->     1 (1 set bit)
+  2     -->    10 (1 set bit)
+  3     -->    11 (2 set bits)
+  4     -->   100 (1 set bit)
+  5     -->   101 (2 set bits)
+  6     -->   110 (2 set bits)
+  7     -->   111 (3 set bits)
+  8     -->  1000 (1 set bit)
+  9     -->  1001 (2 set bits)
+ 10     -->  1010 (2 set bits)
 
 when number is even
 suppose x = 6, now x / 2 = 3, here number of set bits in x(i.e. 6) are 2 and set bits in x / 2(i.e. 3) are also 2
-so, we can say that when number is even, number of set bits in x = number of seet bits in (x / 2)
+so, we can say that when number is even, number of set bits in x = number of set bits in (x / 2)
 
 and when number is odd
 suppose x = 9, now x / 2 = 4, here number of set bits in x(i.e. 9) are 2, but set bits in x / 2(i.e. 4) are 1
