@@ -21,9 +21,9 @@ class Solution {
 
     for(int i = 0; i < tLen && j < sLen; ++i) {
 
-      char ch = s.charAt(j);
+      char sChar = s.charAt(j);
 
-      while(i < tLen && t.charAt(i) != ch) {
+      while(i < tLen && t.charAt(i) != sChar) {
         ++i;
       }
 

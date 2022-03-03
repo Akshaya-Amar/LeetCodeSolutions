@@ -22,9 +22,9 @@ public:
 
     for(int i = 0; i < tLen && j < sLen; ++i) {
 
-      char ch = s[j];
+      char sChar = s[j];
 
-      while(i < tLen && t[i] != ch) {
+      while(i < tLen && t[i] != sChar) {
         ++i;
       }
 
