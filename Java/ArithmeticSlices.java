@@ -63,7 +63,7 @@ class Solution {
 
 Approach 3 (optimised)
 
-Time: O(n ^ 2), where n is the length of the given array(nums)
+Time: O(n), where n is the length of the given array(nums)
 Space: O(1), in-place
 
 */
