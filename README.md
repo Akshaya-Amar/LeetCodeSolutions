@@ -73,7 +73,7 @@ LeetCode Solutions
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./C++/RotateArray.cpp) <br> [JAVA,](./Java/RotateArray.java) <br> [Explanation](https://github.com/Akshaya-Amar/LeetCodeSolutions#explained-solutions) | Time - **O(n)** <br>Space - **O(1)** | Medium
 |228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/) | [JAVA](./Java/SummaryRanges.java) | Time - **O(n)** <br>Space - **O(1)** | Easy
 |229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [C++](./C++/MajorityElementII.cpp) <br> [JAVA](./Java/MajorityElementII.java) | Time - **O(n)** <br>Space - **O(1)** | Medium
-|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [JAVA](./Java/ArithmeticSlices.java) | Time - **O(n)** <br>Space - **O(1)** | Medium
+|413|[Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [C++](./C++/ArithmeticSlices.cpp) <br> [JAVA](./Java/ArithmeticSlices.java) | Time - **O(n)** <br>Space - **O(1)** | Medium
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(n)** | Easy
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)| [C++](./C++/ContiguousArray.cpp)<br>[JAVA](./Java/ContiguousArray.java) | Time - **O(n)** <br> Space - **O(n)** | Medium
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)| [C++](./C++/K-diffPairsinanArray.cpp) <br> [JAVA](./Java/K-diffPairsinanArray.java) | Time - **O(n)** <br>Space - **O(n)** | Medium
