@@ -2,7 +2,10 @@
 
 Source: https://leetcode.com/problems/arithmetic-slices/
 
+Total 5 Approaches
+
 1st approach (brute force)
+
 Time: O(n ^ 2), where n is the length of the given array(nums)
 Space: O(1), in-place
 
@@ -33,7 +36,7 @@ class Solution {
 
 /*
 
-Approach 2 (brute force, but using single variable)
+Approach 2 (brute force, but without using extra count variable)
 
 Time: O(n ^ 2), where n is the length of the given array(nums)
 Space: O(1), in-place
@@ -61,7 +64,41 @@ class Solution {
 
 /*
 
-Approach 3 (optimised)
+Approach 3 (more optimised, but uses extra space)
+
+Time: O(n), where n is the length of the given array(nums)
+Space: O(n), an array of size equal to the length of given array(nums) is required
+
+*/
+
+class Solution {
+  public int numberOfArithmeticSlices(int[] nums) {
+
+    int len = nums.length;
+    int arithmeticSubArrays = 0;
+    int[] dp = new int[len];
+
+    for(int i = 2; i < len; ++i) {
+
+      if(nums[i] - nums[i - 1] == nums[i - 1] - nums[i - 2]) {
+        dp[i] = dp[i - 1] + 1;
+        arithmeticSubArrays += dp[i];
+      }
+    }
+
+    return arithmeticSubArrays;
+  }
+}
+
+/*
+
+Approach 4 (more optimised than Approach 3 by eliminating extra array for space)
+
+1. Minimum 3 indices are required to make arithmetic progression
+2. Starting with index 2, if we found 2 same differences, then we got the arithmetic sequence
+3. At any index i, if we see it forms arithmetic sequence with the former two, then it means the running(curr) sequence gets extended upto it's index,
+at the same time, we got one more sequence, so increment the curr by 1 and add this curr to the arithmeticSubArrays
+4. If we found that ith index doesn't form arithmetic sequence, then make currently running sequence to 0(zero)
 
 Time: O(n), where n is the length of the given array(nums)
 Space: O(1), in-place
@@ -71,16 +108,46 @@ Space: O(1), in-place
 class Solution {
   public int numberOfArithmeticSlices(int[] nums) {
 
-    int prev = 0;
+    int curr = 0;
     int len = nums.length;
     int arithmeticSubArrays = 0;
 
     for(int i = 2; i < len; ++i) {
 
       if(nums[i - 1] - nums[i - 2] == nums[i] - nums[i - 1]) {
-        arithmeticSubArrays += ++prev;
+        arithmeticSubArrays += ++curr;
       } else {
-        prev = 0;
+        curr = 0;
+      }
+    }
+
+    return arithmeticSubArrays;
+  }
+}
+
+/*
+
+Approach 5 (eliminating if/else condition)
+
+Time: O(n), where n is the length of the given array(nums)
+Space: O(1), in-place
+
+*/
+
+class Solution {
+  public int numberOfArithmeticSlices(int[] nums) {
+
+    int len = nums.length;
+    int arithmeticSubArrays = 0;
+
+    for(int i = 2; i < len; ++i) {
+
+      int diff = nums[i - 1] - nums[i - 2];
+      int curr = 0;
+
+      while(i < len && nums[i] - nums[i - 1] == diff) {
+        arithmeticSubArrays += ++curr;
+        ++i;
       }
     }
 
