@@ -188,7 +188,7 @@ LeetCode Solutions
 ## Dynamic Programming
 | # | Title | Solution | Complexity | Difficulty | Tags |
 |:---:| ----- | :--------: | :----------: | :----------: | :----------: |
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [C++](./C++/Climbing Stairs.cpp) <br> [JAVA](./Java/Climbing Stairs.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Math, Memoization
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)| [C++](./C++/ClimbingStairs.cpp) <br> [JAVA](./Java/ClimbingStairs.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Math, Memoization
 |264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)| [C++](./C++/UglyNumberII.cpp) <br> [JAVA](./Java/UglyNumberII.java) |Time - **O(n)** <br>Space - **O(n)**| Medium | HashTable, Math, Heap(Priority Queue)
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/)| [C++](./C++/CountingBits.cpp) <br> [JAVA](./Java/CountingBits.java) |Time - **O(n)** <br>Space - **O(n)**| Easy | Bit Manipulation
 |1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)| [C++](./C++/NthTribonacciNumber.cpp) <br> [JAVA](./Java/NthTribonacciNumber.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Math, Memoization
