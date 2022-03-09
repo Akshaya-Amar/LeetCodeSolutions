@@ -97,3 +97,31 @@ class Solution {
     return ways[n & 1];
   }
 }
+
+------------------------------------------------------------------------------------------------------
+
+/*
+
+Approach 5 (making using of n only in loop)
+
+Time: O(n), where n is the given n
+Space: O(1), in-place
+
+*/
+
+class Solution {
+  public int climbStairs(int n) {
+
+    int first = 1;
+    int second = 1;
+    int steps = 0;
+
+    while(--n > 0) {
+      steps = first + second;
+      first = second;
+      second = steps;
+    }
+
+    return second;
+  }
+}
