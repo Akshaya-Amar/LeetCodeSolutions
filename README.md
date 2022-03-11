@@ -65,6 +65,7 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/)| [JAVA](./Java/TwoSum.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
+|53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./C++/MaximumSubarray.cpp) <br> [JAVA](./Java/MaximumSubarray.java) |Time - **O(n)** <br>Space - **O(1)** | Easy
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)| [C++](./C++/RemoveDuplicatesfromSortedArrayII.cpp) <br>[JAVA](./Java/RemoveDuplicatesfromSortedArrayII.java) | Time - **O(n)** <br>Space - **O(1)** | Medium
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C++](./C++/BestTimetoBuyandSellStock.cpp) <br> [JAVA](./Java/BestTimetoBuyandSellStock.java) |Time - **O(n)** <br>Space - **O(1)** | Easy
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./C++/BestTimetoBuyandSellStockII.cpp) <br> [JAVA](./Java/BestTimetoBuyandSellStockII.java) |Time - **O(n)** <br>Space - **O(1)** | Medium
