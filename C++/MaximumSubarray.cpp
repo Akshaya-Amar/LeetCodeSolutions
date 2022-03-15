@@ -77,3 +77,38 @@ public:
     return maxSoFar;
   }
 };
+
+--------------------------------------------------------------------------------------------------
+
+/*
+
+Approach 3 (Slightly more optimzed than approach 2)
+
+Time: O(n), where n is the size of the given vector(nums)
+Space: O(1), in-place
+
+*/
+class Solution {
+public:
+  int maxSubArray(vector<int>& nums) {
+
+    int maxSoFar = nums[0];
+    int maxEnd = nums[0];
+    int size = nums.size();
+
+    for(int i = 1; i < size; ++i) {
+
+      if(maxEnd < 0) {
+        maxEnd = nums[i];
+      } else {
+        maxEnd += nums[i];
+      }
+
+      if(maxEnd > maxSoFar) {
+        maxSoFar = maxEnd;
+      }
+    }
+
+    return maxSoFar;
+  }
+};
