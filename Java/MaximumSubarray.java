@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/maximum-subarray/
 
-2 Approaches
+3 Approaches
 
 Approach 1 (Brute force but will give TLE)
 
@@ -66,6 +66,41 @@ class Solution {
 
       if(num > maxEnding) {
         maxEnding = num;
+      }
+
+      if(maxEnding > maxSoFar) {
+        maxSoFar = maxEnding;
+      }
+    }
+
+    return maxSoFar;
+  }
+}
+
+-------------------------------------------------------------------------------------------------------
+
+/*
+
+Approach 3 (Slightly more optimzed than approach 2)
+
+Time: O(n), where n is the size of the given array(nums)
+Space: O(1), in-place
+
+*/
+
+class Solution {
+  public int maxSubArray(int[] nums) {
+
+    int maxSoFar = nums[0];
+    int maxEnding = nums[0];
+    int len = nums.length;
+
+    for(int i = 1; i < len; ++i) {
+
+      if(maxEnding < 0) {
+        maxEnding = nums[i];
+      } else {
+        maxEnding += nums[i];
       }
 
       if(maxEnding > maxSoFar) {
