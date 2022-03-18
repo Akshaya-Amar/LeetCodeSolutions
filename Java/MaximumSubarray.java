@@ -4,7 +4,7 @@ Source: https://leetcode.com/problems/maximum-subarray/
 
 3 Approaches
 
-Approach 1 (Brute force but will give TLE)
+Approach 1 (Brute force, but will give TLE)
 
 Time: O(n ^ 2), where n is the size of the given array(nums)
 Space: O(1), in-place
@@ -14,24 +14,21 @@ Space: O(1), in-place
 class Solution {
   public int maxSubArray(int[] nums) {
 
-    int max = nums[0];
+    int max = Integer.MIN_VALUE;
     int len = nums.length;
 
     for(int i = 0; i < len; ++i) {
 
-      if(nums[i] > max) {
-        max = nums[i];
-      }
+      int sum = 0;
 
-      int sum = nums[i];
-
-      for(int j = i + 1; j < len; ++j) {
+      for(int j = i; j < len; ++j) {
 
         sum += nums[j];
 
         if(sum > max) {
           max = sum;
         }
+
       }
     }
 

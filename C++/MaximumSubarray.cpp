@@ -4,7 +4,7 @@ Source: https://leetcode.com/problems/maximum-subarray/
 
 2 Approaches
 
-Approach 1 (Brute force but will give TLE)
+Approach 1 (Brute force, but will give TLE)
 
 Time: O(n ^ 2), where n is the size of the given vector(nums)
 Space: O(1), in-place
@@ -15,18 +15,14 @@ class Solution {
 public:
   int maxSubArray(vector<int>& nums) {
 
-    int max = nums[0];
+    int max = INT_MIN;
     int size = nums.size();
 
     for(int i = 0; i < size; ++i) {
 
-      if(nums[i] > max) {
-        max = nums[i];
-      }
+      int sum = 0;
 
-      int sum = nums[i];
-
-      for(int j = i + 1; j < size; ++j) {
+      for(int j = i; j < size; ++j) {
 
         sum += nums[j];
 
