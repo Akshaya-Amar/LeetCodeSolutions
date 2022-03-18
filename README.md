@@ -80,6 +80,7 @@ LeetCode Solutions
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(N)** <br>Space - **O(n)** | Easy
 |525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)| [C++](./C++/ContiguousArray.cpp)<br>[JAVA](./Java/ContiguousArray.java) | Time - **O(n)** <br> Space - **O(n)** | Medium
 |532|[K-diff Pairs in an Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/)| [C++](./C++/K-diffPairsinanArray.cpp) <br> [JAVA](./Java/K-diffPairsinanArray.java) | Time - **O(n)** <br>Space - **O(n)** | Medium
+|648|[Replace Words](https://leetcode.com/problems/replace-words/)| [JAVA](./Java/ReplaceWords.java) | Time - **O(m * n)** <br>Space - **O(n)** | Medium
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)| [JAVA](./Java/DailyTemperatures.java) | Time - **O(n)** <br>Space - **O(n)** | Medium
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)| [C++](./C++/MinCostClimbingStairs.cpp) <br> [JAVA](./Java/MinCostClimbingStairs.java) | Time - **O(n)** <br>Space - **O(1)** | Easy
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[JAVA](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
