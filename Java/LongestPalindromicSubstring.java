@@ -1,3 +1,12 @@
+/*
+
+Source: https://leetcode.com/problems/longest-palindromic-substring/
+
+Time: O(n ^ 2), where n is the length of the given String(s)
+Space: O(1), in-place
+
+*/
+
 class Solution {
   public String longestPalindrome(String s) {
 
