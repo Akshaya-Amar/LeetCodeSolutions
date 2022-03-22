@@ -113,7 +113,7 @@ LeetCode Solutions
 ## String
 | # | Title | Solution | Complexity | Difficulty |
 |:---:| ----- | :--------: | :----------: | :----------: |
-|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[JAVA](./Java/LongestPalindromicSubstring.java) |Time - **O(n<sup>2</sup>)** <br>Space - **O(n)** | Medium
+|5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)|[JAVA](./Java/LongestPalindromicSubstring.java) |Time - **O(n<sup>2</sup>)** <br>Space - **O(1)** | Medium
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/)|[JAVA](./Java/GroupAnagrams.java) |Time - **O(n * m)** <br>Space - **O(n)**| Medium
 |67|[Add Binary](https://leetcode.com/problems/add-binary/)| [JAVA](./Java/AddBinary.java) |Time - **O(max(n, m))** <br>Space - **O(max(n, m))** | Easy
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)| [C++](./C++/ValidPalindrome.cpp) <br> [JAVA](./Java/ValidPalindrome.java) | Time - **O(n)** <br>Space - **O(1)** | Easy
