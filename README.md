@@ -129,7 +129,7 @@ LeetCode Solutions
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/)| [JAVA](./Java/KeyboardRow.java) |Time - **O(n)** <br>Space - **O(n)**| Easy
 |520|[Detect Capital](https://leetcode.com/problems/detect-capital/)| [C++](./C++/DetectCapital.cpp) <br> [JAVA](./Java/DetectCapital.java) | Time - **O(n)** <br> Space - **O(1)** | Easy
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [C++](./C++/PermutationinString.cpp) <br> [JAVA](./Java/PermutationinString.java) | Time - **O(n)** <br> Space - **O(1)** | Medium
-|647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[JAVA](./Java/PalindromicSubstrings.java) | Time - **O(n<sup>2</sup>)** <br> Space - **O(1)** | Medium
+|647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[C++](./C++/PalindromicSubstrings.cpp) <br> [JAVA](./Java/PalindromicSubstrings.java) | Time - **O(n<sup>2</sup>)** <br> Space - **O(1)** | Medium
 |680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)| [C++](./C++/ValidPalindromeII.cpp) <br> [JAVA](./Java/ValidPalindromeII.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |796|[Rotate String](https://leetcode.com/problems/rotate-string/)| [C++](./C++/RotateString.cpp) <br> [JAVA](./Java/RotateString.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[JAVA](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
