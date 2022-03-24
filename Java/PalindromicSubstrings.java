@@ -51,7 +51,7 @@ class Solution {
 Approach 2
 
 Basic Idea:
-Start from each index and extend palindrome for both odd and even lengths
+Start from each index and treat each index as mid point and extend palindrome from that index for both odd and even lengths
 
 Time: O(n ^ 2), where n is the length of the given String(s)
 Space: O(n), char array is needed access characters of String(s) and to avoid charAt() repeatidly

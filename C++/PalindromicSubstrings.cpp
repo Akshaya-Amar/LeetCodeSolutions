@@ -22,10 +22,9 @@ public:
 
     for(int i = 0; i < len; ++i) {
 
-      int uptoLen = 0;
-      for(int j = i; j < len; ++j) {
+      for(int j = i + 1; j <= len; ++j) {
 
-        if(isPalindrome(s.substr(i, ++uptoLen))) {
+        if(isPalindrome(s.substr(i, j - i))) {
           ++count;
         }
       }
@@ -35,7 +34,7 @@ public:
   }
 
 private:
-  bool isPalindrome(string sub) {
+  bool isPalindrome(const string& sub) {
 
     int start = 0;
     int end = sub.length() - 1;
@@ -54,10 +53,10 @@ private:
 Approach 2
 
 Basic Idea:
-Start from each index and extend palindrome for both odd and even lengths
+Start from each index and treat each index as mid point and extend palindrome from that index for both odd and even lengths
 
 Time: O(n ^ 2), where n is the length of the given String(s)
-Space: O(n), char array is needed access characters of String(s) and to avoid charAt() repeatidly
+Space: O(1), in-place
 
 */
 
