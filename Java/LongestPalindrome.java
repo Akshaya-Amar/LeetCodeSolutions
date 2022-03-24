@@ -122,6 +122,8 @@ class Solution {
 
 /*
 
+Approach 4 (Better than Approach 3)
+
 Time: O(n + m), where n is the length of the given string(s) and m is the size of map(charFreq)
 Space: O(n), map is needed to store the frequency of each character in the given String(s)
 
@@ -144,7 +146,6 @@ class Solution {
 
     int len = s.length();
     return (charWithOddFreq == 0) ? len : (len - charWithOddFreq + 1);
-
   }
 }
 
@@ -152,11 +153,14 @@ class Solution {
 
 /*
 
+Approach 5(Better than approach 4)
+
 Time: O(n + m), where n is the length of the given string(s) and m is the size of array taken to store frequency(charFreq)
 Space: O(1), in-place; though we are using extra array(charFreq) to store the frequency of each character, but the array size
 will be constant for all the input string and does not depend on the input, so we treat constant(123) as O(1)
 
 */
+
 class Solution {
   public int longestPalindrome(String s) {
 
