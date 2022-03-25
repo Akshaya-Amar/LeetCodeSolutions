@@ -2,8 +2,12 @@
 
 Source: https://leetcode.com/problems/longest-palindrome/
 
-Time: O(n + m), where n is the length of the given string(s)
-Space: O(n), map is needed to store the frequency of each character in the given String(s)
+Time: O(n), where n is the length of the given string(s)
+Space: O(n), we need a char array, by using(s.toCharArray()), equal to the size of string(s)
+
+NOTE: (n + m) ~ O(n), where n is the length of the given string(s)
+Here, as per the constraints 1 <= s.length(n) <= 2000 and m is the number of distinct characters, but
+m <= n, so n + m <= 2n --> O(2n) --> O(n)
 
 */
 
@@ -42,9 +46,12 @@ class Solution {
 
 Approach 2 (Faster than Approach 1)
 
-Time: O(n + m), where n is the length of the given string(s) and m is the size of array taken to store frequency(charFreq)
-Space: O(1), in-place though we are using extra array(charFreq) to store the frequency of each character, but the array size
-will be constant for all the input string and does not depend on the input, so we treat constant(123) as O(1)
+Time: O(n), where n is the length of the given string(s)
+Space: O(n), we need a char array, by using(s.toCharArray()), equal to the size of string(s)
+
+NOTE: (n + m) ~ O(n), where n is the length of the given string(s) and m is the size of array(charFreq) taken to
+store frequency of characters present in string(s), but m will always be constant(i.e. 123) and it does not depend
+on the input size, so we will treat O(n + constant_term) as O(n)
 
 */
 
@@ -82,9 +89,12 @@ class Solution {
 
 Approach 3 (Better than Approach 2)
 
-Time: O(n + m), where n is the length of the given string(s) and m is the size of array taken to store frequency(charFreq)
-Space: O(1), in-place; though we are using extra array(charFreq) to store the frequency of each character, but the array size
-will be constant for all the input string and does not depend on the input, so we treat constant(123) as O(1)
+Time: O(n), where n is the length of the given string(s)
+Space: O(n), we need a char array, by using(s.toCharArray()), equal to the size of string(s)
+
+NOTE: (n + m) ~ O(n), where n is the length of the given string(s) and m is the size of array(charFreq) taken to
+store frequency of characters present in string(s), but m will always be constant(i.e. 123) and it does not depend
+on the input size, so we will treat O(n + constant_term) as O(n)
 
 */
 
@@ -124,8 +134,12 @@ class Solution {
 
 Approach 4 (Better than Approach 3)
 
-Time: O(n + m), where n is the length of the given string(s) and m is the size of map(charFreq)
-Space: O(n), map is needed to store the frequency of each character in the given String(s)
+Time: O(n), where n is the length of the given string(s)
+Space: O(n), we need a char array, by using(s.toCharArray()), equal to the size of string(s)
+
+NOTE: (n + m) ~ O(n), where n is the length of the given string(s)
+Here, as per the constraints 1 <= s.length(n) <= 2000 and m is the number of distinct characters or size of map,
+but, m <= n, so n + m <= 2n --> O(2n) --> O(n)
 
 */
 
@@ -155,9 +169,12 @@ class Solution {
 
 Approach 5(Better than approach 4)
 
-Time: O(n + m), where n is the length of the given string(s) and m is the size of array taken to store frequency(charFreq)
-Space: O(1), in-place; though we are using extra array(charFreq) to store the frequency of each character, but the array size
-will be constant for all the input string and does not depend on the input, so we treat constant(123) as O(1)
+Time: O(n), where n is the length of the given string(s)
+Space: O(n), we need a char array, by using(s.toCharArray()), equal to the size of string(s)
+
+NOTE: (n + m) ~ O(n), where n is the length of the given string(s) and m is the size of array(charFreq) taken to
+store frequency of characters present in string(s), but m will always be constant(i.e. 58) and it does not depend
+on the input size, so we will treat O(n + constant_term) as O(n)
 
 */
 
