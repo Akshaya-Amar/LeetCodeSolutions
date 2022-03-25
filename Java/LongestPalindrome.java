@@ -6,8 +6,9 @@ Time: O(n), where n is the length of the given string(s)
 Space: O(n), we need a char array, by using(s.toCharArray()), equal to the size of string(s)
 
 NOTE: (n + m) ~ O(n), where n is the length of the given string(s)
-Here, as per the constraints 1 <= s.length(n) <= 2000 and m is the number of distinct characters, but
-m <= n, so n + m <= 2n --> O(2n) --> O(n)
+Here, as per the constraints 1 <= s.length(n) <= 2000 and m is the number of distinct characters,
+which can never be greater than 52(26 uppercase letters + 26 lowercase letters) i.e. m <= n,
+so n + m <= 2n --> O(2n) --> O(n)
 
 */
 
@@ -138,8 +139,9 @@ Time: O(n), where n is the length of the given string(s)
 Space: O(n), we need a char array, by using(s.toCharArray()), equal to the size of string(s)
 
 NOTE: (n + m) ~ O(n), where n is the length of the given string(s)
-Here, as per the constraints 1 <= s.length(n) <= 2000 and m is the number of distinct characters or size of map,
-but, m <= n, so n + m <= 2n --> O(2n) --> O(n)
+Here, as per the constraints 1 <= s.length(n) <= 2000 and m is the number of distinct characters,
+which can never be greater than 52(26 uppercase letters + 26 lowercase letters) i.e. m <= n,
+so n + m <= 2n --> O(2n) --> O(n)
 
 */
 
