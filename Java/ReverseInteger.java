@@ -2,6 +2,9 @@
 
 Source: https://leetcode.com/problems/reverse-integer/
 
+Time: O(log base10 n), where n is the given integer(x)
+Space: O(1), in-place
+
 */
 
 class Solution {
