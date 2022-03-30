@@ -37,9 +37,9 @@ Space: O(1), in-place
 class Solution {
   public int findDuplicate(int[] nums) {
 
-    for(int i = 0; i < nums.length; ++i) {
+    for(int num : nums) {
 
-      int curr = Math.abs(nums[i]);
+      int curr = Math.abs(num);
       if(nums[curr] < 0) {
         return curr;
         // return -nums[i];// will not work for cases like [2,1,4,4,3], but will work for [3,4,2,1,4]
