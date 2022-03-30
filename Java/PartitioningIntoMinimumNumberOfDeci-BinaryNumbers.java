@@ -2,17 +2,19 @@
 
 Source: https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/
 
+4 Approaches
+
 Basic Idea:
 Just return the max digit
 eg:
-n = 1234 (take as many one as the value of digits i.e. take 1 1's for digit 1, take 3 1's for digit 3, take 4 1's for digit 4 and so on)
-1111
-+ 0111
-+ 0011
-+ 0001
-----
-1234
-----
+n = 1234 (take as many 1's as the value of digits i.e. take 1 1's for digit 1, take 3 1's for digit 3, take 4 1's for digit 4 and so on)
+    1111
+  + 0111
+  + 0011
+  + 0001
+    ----
+    1234
+    ----
 
 1st Approach
 
@@ -69,7 +71,7 @@ class Solution {
 
 /*
 
-2nd Approach (faster than Approach 1, by avoiding char('8') to digit(8) conversion repeatidly i.e. avoiding int digit = ch - '0')
+3rd Approach (faster than Approach 2, by avoiding char('8') to digit(8) conversion repeatidly i.e. avoiding int digit = ch - '0')
 
 Time: O(n), where n is the length of the given string(n)
 Space: O(n), char array is needed to access each character of the given string(s)
@@ -88,7 +90,19 @@ class Solution {
       }
     }
 
-    return max - 48; // subtract the 48(ASCII value of 0(zero) from the max)
+    return max - 48; // subtract the 48(ASCII value of 0(zero)) from the max
     // eg: if max digit in the string(n) is 8, then max will be 56(which is the ASCII value of 8) and 56 - 48 = 8 which will be desired output
+  }
+}
+
+/*
+
+4th Approach(1 Liner)
+
+*/
+
+class Solution {
+  public int minPartitions(String n) {
+    Character.getNumericValue(n.chars().max().getAsInt());
   }
 }
