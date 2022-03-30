@@ -103,6 +103,6 @@ class Solution {
 
 class Solution {
   public int minPartitions(String n) {
-    Character.getNumericValue(n.chars().max().getAsInt());
+    return Character.getNumericValue(n.chars().max().getAsInt());
   }
 }
