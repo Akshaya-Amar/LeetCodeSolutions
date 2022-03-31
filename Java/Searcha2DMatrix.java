@@ -9,7 +9,7 @@ Source: https://leetcode.com/problems/search-a-2d-matrix/submissions/
 Basic Idea:
 Check each row and if target is less than or equal to the last element of any row, then do binary search on elements of that row
 
-Time: O(m + log base2 (n)), where m is the number of rows and n is the number of columns
+Time: O(m + log₂(n)), where m is the number of rows and n is the number of columns
 Space: O(1), constant space
 
 */
@@ -64,7 +64,7 @@ class Solution {
 Basic Idea:
 First do binary search on rows and if there is a possibility of having target in a row, do binary search on elements of that row
 
-Time: O(log base2 (m * n)), where m is the number of rows and n is the number of columns
+Time: O(log₂(m * n)), where m is the number of rows and n is the number of columns
 Space: O(1), consant space
 
 */
@@ -124,7 +124,7 @@ class Solution {
 
 Approach 3 (Treat as 1D sorted array)
 
-Time: O(log base2 (m * n)), where m is the number of rows and n is the number of columns
+Time: O(log₂(m * n)), where m is the number of rows and n is the number of columns
 Space: O(1), consant space
 
 */
