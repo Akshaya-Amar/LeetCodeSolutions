@@ -15,11 +15,11 @@ Space: O(1), constant space
 */
 
 class Solution {
+public:
+  bool searchMatrix(vector<vector<int>>& matrix, int target) {
 
-  public boolean searchMatrix(int[][] matrix, int target) {
-
-    int m = matrix.length;
-    int n = matrix[0].length;
+    int m = matrix.size();
+    int n = matrix[0].size();
 
     for(int i = 0; i < m; ++i) {
 
@@ -31,10 +31,11 @@ class Solution {
     return false;
   }
 
-  private boolean isTargetPresent(int[] row, int target) {
+private:
+  bool isTargetPresent(vector<int> row, int target) {
 
     int start = 0;
-    int end = row.length - 1;
+    int end = row.size() - 1;
 
     while(start <= end) {
 
@@ -49,11 +50,12 @@ class Solution {
       } else {
         end = mid - 1;
       }
+
     }
 
     return false;
   }
-}
+};
 
 --------------------------------------------------------------------------------------------
 
@@ -69,12 +71,14 @@ Space: O(1), constant space
 
 */
 
+
 class Solution {
-  public boolean searchMatrix(int[][] matrix, int target) {
+public:
+  bool searchMatrix(vector<vector<int>>& matrix, int target) {
 
     int top = 0;
-    int down = matrix.length - 1;
-    int n = matrix[0].length - 1;
+    int down = matrix.size() - 1;
+    int n = matrix[0].size() - 1;
 
     while(top <= down) {
 
@@ -89,15 +93,17 @@ class Solution {
       } else {
         down = mid - 1;
       }
+
     }
 
     return false;
   }
 
-  private boolean isTargetPresent(int[] row, int target) {
+private:
+  bool isTargetPresent(vector<int> row, int target) {
 
     int start = 0;
-    int end = row.length - 1;
+    int end = row.size() - 1;
 
     while(start <= end) {
 
@@ -112,11 +118,12 @@ class Solution {
       } else {
         end = mid - 1;
       }
+
     }
 
     return false;
   }
-}
+};
 
 --------------------------------------------------------------------------------------------
 
@@ -130,10 +137,11 @@ Space: O(1), constant space
 */
 
 class Solution {
-  public boolean searchMatrix(int[][] matrix, int target) {
+public:
+  bool searchMatrix(vector<vector<int>>& matrix, int target) {
 
-    int m = matrix.length;
-    int n = matrix[0].length;
+    int m = matrix.size();
+    int n = matrix[0].size();
 
     int start = 0;
     int end = m * n - 1;
@@ -156,4 +164,4 @@ class Solution {
 
     return false;
   }
-}
+};
