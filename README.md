@@ -183,7 +183,7 @@ LeetCode Solutions
 | # | Title | Solution | Complexity | Difficulty | Tags |
 |:---:| ----- | :--------: | :----------: | :----------: | :----------: |
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| [C++](./C++/SearchinRotatedSortedArray.cpp) <br>[JAVA](./Java/SearchinRotatedSortedArray.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium | Array
-|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)| [JAVA](./Java/Searcha2DMatrix.java) |Time - **O(log<sub>2</sub>(m * n))** <br>Space - **O(1)**| Medium | Array, Matrix
+|74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix)|[C++](./C++/Searcha2DMatrix.cpp) <br>[JAVA](./Java/Searcha2DMatrix.java) |Time - **O(log<sub>2</sub>(m * n))** <br>Space - **O(1)**| Medium | Array, Matrix
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)| [C++](./C++/FindMinimuminRotatedSortedArray.cpp) <br>[JAVA](./Java/FindMinimuminRotatedSortedArray.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium | Array
 |162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/)| [C++](./C++/FindPeakElement.cpp) <br>[JAVA](./Java/FindPeakElement.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Medium | Array
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)| [C++](./C++/BinarySearch.cpp) <br>[JAVA](./Java/BinarySearch.java) |Time - **O(log<sub>2</sub>(n))** <br>Space - **O(1)**| Easy | Array
