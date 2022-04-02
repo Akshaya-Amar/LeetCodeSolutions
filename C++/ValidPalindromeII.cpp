@@ -3,7 +3,7 @@
 Source: https://leetcode.com/problems/valid-palindrome-ii/
 
 Time: O(n), where n is the length of the given string(s)
-Space: O(1), in-place
+Space: O(1), constant space
 
 */
 

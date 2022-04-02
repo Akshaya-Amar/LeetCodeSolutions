@@ -80,8 +80,9 @@ class Solution {
 
       int mid = (top + down) >> 1;
 
+      // log(m) to search for the row having possibility of containing target
       if(target >= matrix[mid][0] && target <= matrix[mid][n]) {
-        return isTargetPresent(matrix[mid], target);
+        return isTargetPresent(matrix[mid], target); // log(n) to search for the target in that row
       }
 
       if(target > matrix[mid][n]) {
