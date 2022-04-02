@@ -69,6 +69,7 @@ class Solution {
       ++leftIndex;
       --rightIndex;
     }
+
     return true;
   }
 
@@ -82,7 +83,6 @@ class Solution {
 
       ++leftIndex;
       --rightIndex;
-
     }
 
     return true;
