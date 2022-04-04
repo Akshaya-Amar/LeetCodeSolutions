@@ -17,9 +17,11 @@ class Solution {
 
     for(int i = 0; i < len; ++i) {
 
+      int num = nums[i];
+
       for(int j = i + 1; j < len; ++j) {
 
-        int product = (nums[i] - 1) * (nums[j] - 1);
+        int product = (num - 1) * (nums[j] - 1);
 
         if(product > maxProduct) {
           maxProduct = product;

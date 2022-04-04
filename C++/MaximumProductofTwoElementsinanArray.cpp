@@ -14,13 +14,15 @@ public:
   int maxProduct(vector<int>& nums) {
 
     int maxProduct = 0;
-    int len = nums.size();
+    int size = nums.size();
 
     for(int i = 0; i < size; ++i) {
 
+      int num = nums[i];
+
       for(int j = i + 1; j < size; ++j) {
 
-        int product = (nums[i] - 1) * (nums[j] - 1);
+        int product = (num - 1) * (nums[j] - 1);
 
         if(product > maxProduct) {
           maxProduct = product;
