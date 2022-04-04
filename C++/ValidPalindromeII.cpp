@@ -52,7 +52,7 @@ private:
 
 2nd Approach(Same idea, but expanded form for better understanding)
 
-Time: O(n), where n is the length of the given String(s)
+Time: O(n), where n is the length of the given string(s)
 Space: O(1), constant space
 
 */
