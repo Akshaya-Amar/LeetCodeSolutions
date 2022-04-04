@@ -10,14 +10,15 @@ Space: O(1), constant time
 */
 
 class Solution {
-  public int maxProduct(int[] nums) {
+public:
+  int maxProduct(vector<int>& nums) {
 
     int maxProduct = 0;
-    int len = nums.length;
+    int len = nums.size();
 
-    for(int i = 0; i < len; ++i) {
+    for(int i = 0; i < size; ++i) {
 
-      for(int j = i + 1; j < len; ++j) {
+      for(int j = i + 1; j < size; ++j) {
 
         int product = (nums[i] - 1) * (nums[j] - 1);
 
@@ -30,7 +31,7 @@ class Solution {
 
     return maxProduct;
   }
-}
+};
 
 -------------------------------------------------------------------------------------------------
 
@@ -49,15 +50,16 @@ Space: O(1), constant time
 */
 
 class Solution {
-  public int maxProduct(int[] nums) {
+public:
+  int maxProduct(vector<int>& nums) {
 
-    Arrays.sort(nums);
+    sort(nums.begin(), nums.end());
 
-    int len = nums.length;
+    int size = nums.size();
 
-    return (nums[len - 2] - 1) * (nums[len - 1] - 1);
+    return (nums[size - 2] - 1) * (nums[size - 1] - 1);
   }
-}
+};
 
 -------------------------------------------------------------------------------------------------
 
@@ -75,13 +77,14 @@ Space: O(1), constant time
 */
 
 class Solution {
-  public int maxProduct(int[] nums) {
+public:
+  int maxProduct(vector<int>& nums) {
 
     int maxElement = nums[0];
     int secondMaxElement = 1;
-    int len = nums.length;
+    int size = nums.size();
 
-    for(int i = 1; i < len; ++i) {
+    for(int i = 1; i < size; ++i) {
 
       int num = nums[i];
 
@@ -95,4 +98,4 @@ class Solution {
 
     return (maxElement - 1) * (secondMaxElement - 1);
   }
-}
+};
