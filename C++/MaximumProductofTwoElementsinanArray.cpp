@@ -4,7 +4,7 @@ Source: https://leetcode.com/problems/maximum-product-of-two-elements-in-an-arra
 
 Approach 1 (Brute force)
 
-Time: O(n ^ 2), where n is the length of the given array(nums)
+Time: O(n ^ 2), where n is the length of the given vector(nums)
 Space: O(1), constant time
 
 */
@@ -44,7 +44,7 @@ Sort the given array, the last two elements will given the maximum product
 We can treat the last element as maximum and second last element as second maximum
 Return the product of the maximum - 1 and secondmax - 1
 
-Time: O(n log₂n), where n is the length of the given array(nums)
+Time: O(n log₂n), where n is the length of the given vector(nums)
 Space: O(1), constant time
 
 */
@@ -71,7 +71,7 @@ Basic idea:
 From the approch 2, we can observe that we need only 2 max elements and this can be done in linear time
 Return the product of the maximum - 1 and secondmax - 1
 
-Time: O(n), where n is the length of the given array(nums)
+Time: O(n), where n is the length of the given vector(nums)
 Space: O(1), constant time
 
 */
