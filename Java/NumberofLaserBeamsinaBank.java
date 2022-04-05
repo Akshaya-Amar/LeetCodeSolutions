@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
 
-Time: O(n * m), where n is the length of the given String(banks) and m is the length of each element
+Time: O(n * m), where n is the length of the given array(bank) and m is the length of each string
 Space: O(1), constant space
 
 */

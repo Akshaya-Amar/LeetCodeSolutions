@@ -2,7 +2,7 @@
 
 Source: https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/submissions/
 
-Time: O(n ^ m), where n is the size of the given string array(sentences) and m is the average length of all sentences in array
+Time: O(n * m), where n is the size of the given string array(sentences) and m is the average length of all sentences in array
 Space: O(1), in-place
 
 */
