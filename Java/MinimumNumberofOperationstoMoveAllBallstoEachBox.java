@@ -33,7 +33,6 @@ class Solution {
       }
 
       answer[i] = count;
-
     }
 
     return answer;
@@ -71,7 +70,6 @@ class Solution {
       }
 
       answer[i] = count;
-
     }
 
     return answer;
@@ -82,16 +80,24 @@ class Solution {
 
 Basic Idea:
 Move balls from left to right and track the number of operations took place by each ball for each box
+
 eg:
 String boxes = "1101"
+
 left to right operations - |0|1|3|5|
 0 - For 1st box(at index 0 of boxes), no operation took place
-1 - For 2nd box(at index 1 of boxes), 1 operation took place, i.e. to move ball in 1st box(index 0) to 2nd box(index 1)
-3 - For 3rd box(at index 2 of boxes), 3 operations took place, i.e. 2 operations to move ball in 1st box(index 0) to 3rd box(index 2) + 1 operation to move ball in 2nd box(index 1) to 3rd box(index 2)
-5 - For 4th box(at index 3 of boxes), 5 operations took place, i.e. 3 operations to move ball in 1st box(index 0) to 4th box(index 3) + 2 operations to move ball in 2nd box(index 1) to 4th box(index 3)
+1 - For 2nd box(at index 1 of boxes), 1 operation took place to move ball from 1st box(index 0) to 2nd box(index 1)
+3 - For 3rd box(at index 2 of boxes), 3 operations took place, i.e. 2 operations to move ball from 1st box(index 0) to 3rd box(index 2) + 1 operation to move ball from 2nd box(index 1) to 3rd box(index 2)
+5 - For 4th box(at index 3 of boxes), 5 operations took place, i.e. 3 operations to move ball from 1st box(index 0) to 4th box(index 3) + 2 operations to move ball from 2nd box(index 1) to 4th box(index 3)
 
 Do, the same operation from right to left
-|5|2|1|0|
+right to left operations - |4|2|1|0|
+
+And add the result of left and right operations
+|0|1|3|5|
++ |4|2|1|0|
+-----------
+|4|3|4|5| <---- Desired Output
 
 Time: O(n), where n is the length of the given String(boxes)
 Space: O(n), char array is needed to access the each character of string
@@ -208,16 +214,16 @@ class Solution {
 
     int[] right = new int[len];
     count = ch[len - 1] - '0';
-    left[len - 1] += right[len - 1];
 
     for(int i = len - 2; i >= 0; --i) {
 
       right[i] = right[i + 1] + count;
-      left[i] += right[i];
 
       if(ch[i] == '1') {
         count += 1;
       }
+
+      left[i] += right[i];
     }
 
     return left;
@@ -240,10 +246,8 @@ class Solution {
     int count = ch[0] - '0';
 
     for(int i = 1; i < len; ++i) {
-
       left[i] = left[i - 1] + count;
       count += ch[i] - '0';
-
     }
 
     int[] right = new int[len];
@@ -251,10 +255,8 @@ class Solution {
     left[len - 1] += right[len - 1];
 
     for(int i = len - 2; i >= 0; --i) {
-
       right[i] = right[i + 1] + count;
       count += ch[i] - '0';
-
       left[i] += right[i];
     }
 
