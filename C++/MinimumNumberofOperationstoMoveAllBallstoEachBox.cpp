@@ -2,12 +2,14 @@
 
 Source: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
 
-Approaches
+6 Approaches
 
 Approach 1 (Brute force)
 
 Time: O(n ^ 2), where n is the length of the given String(boxes)
-Space: O(1), constant-space
+Space: O(1), in-place, though we are using a vector(answer) to store the operations,
+but we will still treat space as O(1) and not O(n) because we usually don't consider the output in the space
+complexity i.e. only temporary spaces which are used to get the desired output are considered.
 
 */
 
@@ -66,10 +68,10 @@ And add the result of left and right operations
   |0|1|3|5|
 + |4|2|1|0|
 -----------
-|4|3|4|5| <---- Desired Output
+  |4|3|4|5| <---- Desired Output
 
 Time: O(n), where n is the length of the given String(boxes)
-Space: O(n), char array is needed to access the each character of string
+Space: O(n), vector is needed of length equal to the size of the string(boxes) to store the number of operations
 
 */
 
@@ -249,7 +251,9 @@ public:
 Approach 6 (Same as Approach 5, but more optimized than Approach 5 by using only 1 vector)
 
 Time: O(n), where n is the length of the given String(boxes)
-Space: O(1), vector is needed of length equal to the size of the string(boxes) to store the number of operations
+Space: O(1), in-place, though we are using a vector(answer) to store the operations,
+but we will still treat space as O(1) and not O(n) because we usually don't consider the output in the space
+complexity i.e. only temporary spaces which are used to get the desired output are considered.
 
 */
 

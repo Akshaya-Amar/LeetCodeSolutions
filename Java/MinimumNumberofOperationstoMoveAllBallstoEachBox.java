@@ -7,7 +7,9 @@ Source: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-b
 Approach 1 (Brute force)
 
 Time: O(n ^ 2), where n is the length of the given String(boxes)
-Space: O(1), constant-space
+Space: O(1), in-place, though we are using an array(answer) to store the operations,
+but we will still treat space as O(1) and not O(n) because we usually don't consider the output in the space
+complexity i.e. only temporary spaces which are used to get the desired output are considered.
 
 */
 
@@ -50,7 +52,7 @@ class Solution {
 Approach 2 (Brute force but faster than Approach 1 by avoiding charAt() repeatidly)
 
 Time: O(n ^ 2), where n is the length of the given String(boxes)
-Space: O(n), char array is needed to access the each character of string
+Space: O(n), char array of size equal to length of the given String(boxes) is needed to access the each character of string
 
 */
 
@@ -109,10 +111,10 @@ And add the result of left and right operations
   |0|1|3|5|
 + |4|2|1|0|
 -----------
-|4|3|4|5| <---- Desired Output
+  |4|3|4|5| <---- Desired Output
 
 Time: O(n), where n is the length of the given String(boxes)
-Space: O(n), char array is needed to access the each character of string
+Space: O(n), char array of size equal to length of the given String(boxes) is needed to access the each character of string
 
 */
 
@@ -163,7 +165,7 @@ class Solution {
 Approach 4 (Same as approach 3, but more optimized than Approach 3 using 3 arrays and 3 loops instead of 4 arrays)
 
 Time: O(n), where n is the length of the given String(boxes)
-Space: O(n), char array is needed to access the each character of string
+Space: O(n), char array of size equal to length of the given String(boxes) is needed to access the each character of string
 
 */
 
@@ -211,7 +213,7 @@ class Solution {
 Approach 5 (More optimized than Approach 4 using 3 arrays and 2 loops)
 
 Time: O(n), where n is the length of the given String(boxes)
-Space: O(n), char array is needed to access the each character of string
+Space: O(n), char array of size equal to length of the given String(boxes) is needed to access the each character of string
 
 */
 
@@ -257,7 +259,7 @@ class Solution {
 Approach 6 (Same as Approach 5, but more optimized than Approach 5 by eliminating if condition repeatidly)
 
 Time: O(n), where n is the length of the given String(boxes)
-Space: O(n), char array is needed to access the each character of string
+Space: O(n), char array of size equal to length of the given String(boxes) is needed to access the each character of string
 
 */
 
@@ -295,7 +297,7 @@ class Solution {
 Approach 7 (Same as Approach 6, but more optimized than Approach 6 by using only 2 arrays)
 
 Time: O(n), where n is the length of the given String(boxes)
-Space: O(n), char array is needed to access the each character of string
+Space: O(n), char array of size equal to length of the given String(boxes) is needed to access the each character of string
 
 */
 
