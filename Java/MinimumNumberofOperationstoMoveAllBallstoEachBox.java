@@ -2,6 +2,10 @@
 
 Source: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
 
+7 Approaches
+
+Approach 1 (Brute force)
+
 Time: O(n ^ 2), where n is the length of the given String(boxes)
 Space: O(1), constant-space
 
@@ -39,7 +43,11 @@ class Solution {
   }
 }
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 /*
+
+Approach 2 (Brute force but faster than Approach 1 by avoiding charAt() repeatidly)
 
 Time: O(n ^ 2), where n is the length of the given String(boxes)
 Space: O(n), char array is needed to access the each character of string
@@ -76,10 +84,14 @@ class Solution {
   }
 }
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 /*
 
+Approach 3 (More optimized than Approach 2 using 4 arrays and 3 loops)
+
 Basic Idea:
-Move balls from left to right and track the number of operations took place by each ball for each box
+Move balls from left to right and track the number of operations took place by each ball to reach each box
 
 eg:
 String boxes = "1101"
@@ -94,7 +106,7 @@ Do, the same operation from right to left
 right to left operations - |4|2|1|0|
 
 And add the result of left and right operations
-|0|1|3|5|
+  |0|1|3|5|
 + |4|2|1|0|
 -----------
 |4|3|4|5| <---- Desired Output
@@ -144,7 +156,11 @@ class Solution {
   }
 }
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 /*
+
+Approach 4 (Same as approach 3, but more optimized than Approach 3 using 3 arrays and 3 loops instead of 4 arrays)
 
 Time: O(n), where n is the length of the given String(boxes)
 Space: O(n), char array is needed to access the each character of string
@@ -188,7 +204,11 @@ class Solution {
   }
 }
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 /*
+
+Approach 5 (More optimized than Approach 4 using 3 arrays and 2 loops)
 
 Time: O(n), where n is the length of the given String(boxes)
 Space: O(n), char array is needed to access the each character of string
@@ -230,7 +250,11 @@ class Solution {
   }
 }
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 /*
+
+Approach 6 (Same as Approach 5, but more optimized than Approach 5 by eliminating if condition repeatidly)
 
 Time: O(n), where n is the length of the given String(boxes)
 Space: O(n), char array is needed to access the each character of string
@@ -264,7 +288,11 @@ class Solution {
   }
 }
 
+-----------------------------------------------------------------------------------------------------------------------------
+
 /*
+
+Approach 7 (Same as Approach 6, but more optimized than Approach 6 by using only 2 arrays)
 
 Time: O(n), where n is the length of the given String(boxes)
 Space: O(n), char array is needed to access the each character of string

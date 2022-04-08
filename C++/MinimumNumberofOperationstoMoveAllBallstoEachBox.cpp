@@ -1,3 +1,16 @@
+/*
+
+Source: https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box/
+
+Approaches
+
+Approach 1 (Brute force)
+
+Time: O(n ^ 2), where n is the length of the given String(boxes)
+Space: O(1), constant-space
+
+*/
+
 class Solution {
 public:
   vector<int> minOperations(string boxes) {
@@ -29,6 +42,36 @@ public:
 };
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+/*
+
+Approach 2 (More optimized than Approach 1 using 3 vectors and 3 loops)
+
+Basic Idea:
+Move balls from left to right and track the number of operations took place by each ball to reach each box
+
+eg:
+String boxes = "1101"
+
+left to right operations - |0|1|3|5|
+0 - For 1st box(at index 0 of boxes), no operation took place
+1 - For 2nd box(at index 1 of boxes), 1 operation took place to move ball from 1st box(index 0) to 2nd box(index 1)
+3 - For 3rd box(at index 2 of boxes), 3 operations took place, i.e. 2 operations to move ball from 1st box(index 0) to 3rd box(index 2) + 1 operation to move ball from 2nd box(index 1) to 3rd box(index 2)
+5 - For 4th box(at index 3 of boxes), 5 operations took place, i.e. 3 operations to move ball from 1st box(index 0) to 4th box(index 3) + 2 operations to move ball from 2nd box(index 1) to 4th box(index 3)
+
+Do, the same operation from right to left
+right to left operations - |4|2|1|0|
+
+And add the result of left and right operations
+  |0|1|3|5|
++ |4|2|1|0|
+-----------
+|4|3|4|5| <---- Desired Output
+
+Time: O(n), where n is the length of the given String(boxes)
+Space: O(n), char array is needed to access the each character of string
+
+*/
 
 class Solution {
 public:
@@ -70,6 +113,15 @@ public:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+/*
+
+Approach 3 (Same as Approach 2, but more optimized than Approach 2 using 2 vectors and 3 loops)
+
+Time: O(n), where n is the length of the given String(boxes)
+Space: O(n), vector is needed of length equal to the size of the string(boxes) to store the number of operations
+
+*/
+
 class Solution {
 public:
   vector<int> minOperations(string boxes) {
@@ -109,6 +161,15 @@ public:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+/*
+
+Approach 4 (More optimized than Approach 3 using 2 vectors and 2 loops)
+
+Time: O(n), where n is the length of the given String(boxes)
+Space: O(n), vector is needed of length equal to the size of the string(boxes) to store the number of operations
+
+*/
+
 class Solution {
 public:
   vector<int> minOperations(string boxes) {
@@ -146,6 +207,15 @@ public:
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+/*
+
+Approach 5 (Same as Approach 4, but more optimized than Approach 4 by eliminating if condition repeatidly)
+
+Time: O(n), where n is the length of the given String(boxes)
+Space: O(n), vector is needed of length equal to the size of the string(boxes) to store the number of operations
+
+*/
+
 class Solution {
 public:
   vector<int> minOperations(string boxes) {
@@ -173,6 +243,15 @@ public:
 };
 
 -----------------------------------------------------------------------------------------------------------------------------
+
+/*
+
+Approach 6 (Same as Approach 5, but more optimized than Approach 5 by using only 1 vector)
+
+Time: O(n), where n is the length of the given String(boxes)
+Space: O(1), vector is needed of length equal to the size of the string(boxes) to store the number of operations
+
+*/
 
 class Solution {
 public:
