@@ -2,12 +2,12 @@
 
 Source: https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/
 
-Time: O(n), where n is the length of the given array(groupSizes)
-Space: O(n), map is needed to store the group
-
 Basic Idea:
 Keep adding people in their corresponding group.
 If the group is filled completely, add to the list of groups and reset that group.
+
+Time: O(n), where n is the length of the given array(groupSizes)
+Space: O(n), map is needed to store the group
 
 */
 
