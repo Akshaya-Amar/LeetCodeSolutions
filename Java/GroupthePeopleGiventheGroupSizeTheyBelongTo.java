@@ -4,7 +4,7 @@ Source: https://leetcode.com/problems/group-the-people-given-the-group-size-they
 
 Basic Idea:
 Keep adding people in their corresponding group.
-If the group is filled completely, add to the list of groups and reset that group.
+If the group is filled completely, add it to the list of groups and reset that group.
 
 Time: O(n), where n is the length of the given array(groupSizes)
 Space: O(n), map is needed to store the group
@@ -21,11 +21,11 @@ class Solution {
     for(int i = 0; i < len; ++i) {
 
       List<Integer> group = map.getOrDefault(groupSizes[i], new ArrayList<>());
-      group.add(i); // keep adding people in their corresponding group
+      group.add(i); // add people in their corresponding group
 
       // If the group is filled completely,
       if(group.size() == groupSizes[i]) {
-        groups.add(group); // add to the list of groups and
+        groups.add(group); // add it to the list of groups and
         group = new ArrayList<>(); // reset that group
       }
 
