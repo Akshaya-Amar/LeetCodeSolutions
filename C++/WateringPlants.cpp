@@ -5,13 +5,10 @@ Source: https://leetcode.com/problems/watering-plants/
 Check at each steps if the water left in the water can is less than the capacity then,
 count steps for going back to the river + coming back to water the plants, else just increment the steps as we proceed further
 
-/*
-
 Time: O(n), where n is the size of the given vector(plants)
 Space: O(1), constant space
 
 */
-
 
 class Solution {
 public:
