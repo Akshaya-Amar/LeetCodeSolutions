@@ -170,6 +170,7 @@ LeetCode Solutions
 |:---:| ----- | :--------: | :----------: | :----------: | :----------: |
 |566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/)|[C++](./C++/ReshapetheMatrix.cpp) <br>[JAVA](./Java/ReshapetheMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy | Array, Simulation
 |867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[C++](./C++/TransposeMatrix.cpp) <br>[JAVA](./Java/TransposeMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy | Array, Simulation
+|1260|[Shift 2D Grid](https://leetcode.com/problems/shift-2d-grid/)|[JAVA](./Java/Shift2DGrid.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Array, Simulation
 |1572|[Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[C++](./C++/MatrixDiagonalSum.cpp) <br>[JAVA](./Java/MatrixDiagonalSum.java) |Time - **O(n)** <br>Space - **O(1)**| Easy | Array
 |1582|[Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/)|[C++](./C++/SpecialPositionsinaBinaryMatrix.cpp) <br>[JAVA](./Java/SpecialPositionsinaBinaryMatrix.java) |Time - **O(m * n)** <br>Space - **O(1)**| Easy | Array
 
