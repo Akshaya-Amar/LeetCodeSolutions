@@ -84,7 +84,8 @@ LeetCode Solutions
 |648|[Replace Words](https://leetcode.com/problems/replace-words/)| [JAVA](./Java/ReplaceWords.java) | Time - **O(m * n)** <br>Space - **O(n)** | Medium
 |739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)| [JAVA](./Java/DailyTemperatures.java) | Time - **O(n)** <br>Space - **O(n)** | Medium
 |746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)| [C++](./C++/MinCostClimbingStairs.cpp) <br> [JAVA](./Java/MinCostClimbingStairs.java) | Time - **O(n)** <br>Space - **O(1)** | Easy
-|881|[ Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[JAVA](./Java/BoatstoSavePeople.java) | Time - **O(n logn)** <br>Space - **O(1)** | Medium
+|811|[Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[JAVA](./Java/BoatstoSavePeople.java) | Time - **O(n * m)** <br>Space - **O(n)** | Medium
+|881|[Boats to Save People](https://leetcode.com/problems/boats-to-save-people/)|[JAVA](./Java/BoatstoSavePeople.java) | Time - **O(n logn)** <br>Space - **O(1)** | Medium
 |848|[Shifting Letters](https://leetcode.com/problems/shifting-letters/)|[C++](./C++/ShiftingLetters.cpp) <br>[JAVA](./Java/ShiftingLetters.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 |941|[Valid Mountain Array](https://leetcode.com/problems/valid-mountain-array/)|[C++](./C++/ValidMountainArray.cpp) <br>[JAVA](./Java/ValidMountainArray.java) |Time - **O(n)** <br>Space - **O(1)**| Easy
 |1094|[Car Pooling](https://leetcode.com/problems/car-pooling/)|[C++](./C++/CarPooling.cpp)<br>[JAVA](./Java/CarPooling.java) |Time - **O(n)** <br>Space - **O(n)**| Medium
