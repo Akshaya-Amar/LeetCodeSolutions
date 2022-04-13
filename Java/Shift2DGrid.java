@@ -9,7 +9,7 @@ Basic Idea:
 - Create a 1-D array from 2-D array
 eg:
 grid[][] = |10 20 30| and k = 2
-|40 50 60|
+           |40 50 60|
 
 [10, 20, 30, 40, 50, 60]
 
