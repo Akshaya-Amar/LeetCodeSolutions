@@ -12,9 +12,7 @@ Again iterate through the array and add all the elements, which are equal to the
 Now, iterate through the array once again and add all the elements, which are greater than the given pivot, in the resultant array
 
 Time: O(n), where n is the number of the given array(nums)
-Space: O(1), in-place, though we are using extra array(res) to rearrange elements,
-but we will still treat space as O(1) and not O(n) because we usually don't consider the output in the space
-complexity i.e. only temporary spaces which are used to get the desired output are considered.
+Space: O(n), we need an extra array(res) to rearrange elements
 
 */
 
@@ -56,9 +54,7 @@ Add all the elements equal to the pivot in the resultant array
 Iterate through the array once again to add all the elements, which are greater than the given pivot, in the resultant array
 
 Time: O(n), where n is the number of the given array(nums)
-Space: O(1), in-place, though we are using extra array(res) to rearrange elements,
-but we will still treat space as O(1) and not O(n) because we usually don't consider the output in the space
-complexity i.e. only temporary spaces which are used to get the desired output are considered.
+Space: O(n), we need an extra array(res) to rearrange elements
 
 */
 
@@ -97,9 +93,7 @@ class Solution {
 Approach 3 (Two pointer approach, more optimized than approach 2 as we are performing whole iteration only for 1 time)
 
 Time: O(n), where n is the number of the given array(nums)
-Space: O(1), in-place, though we are using extra array(res) to rearrange elements,
-but we will still treat space as O(1) and not O(n) because we usually don't consider the output in the space
-complexity i.e. only temporary spaces which are used to get the desired output are considered.
+Space: O(n), we need an extra array(res) to rearrange elements
 
 */
 
@@ -144,9 +138,7 @@ If the element at the end is more than the pivot, then add the element at the en
 After adding elements, which are less than pivot and more than pivot, the remaining ones are elements equal to pivot only. Now, add them in the array too
 
 Time: O(n), where n is the number of the given array(nums)
-Space: O(1), in-place, though we are using extra array(res) to rearrange elements,
-but we will still treat space as O(1) and not O(n) because we usually don't consider the output in the space
-complexity i.e. only temporary spaces which are used to get the desired output are considered.
+Space: O(n), we need an extra array(res) to rearrange elements
 
 */
 
