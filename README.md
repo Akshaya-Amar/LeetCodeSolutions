@@ -116,6 +116,7 @@ LeetCode Solutions
 |2079|[Watering Plants](https://leetcode.com/problems/watering-plants/)|[C++](./C++/WateringPlants.cpp)<br>[JAVA](./Java/WateringPlants.java) |Time - **O(n)** <br>Space - **O(1)**| Medium
 |2114|[Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)|[C++](./C++/MaximumNumberofWordsFoundinSentences.cpp)<br>[JAVA](./Java/MaximumNumberofWordsFoundinSentences.java) |Time - **O(n * m)** <br>Space - **O(1)**| Easy
 |2125|[Number of Laser Beams in a Bank](https://leetcode.com/problems/number-of-laser-beams-in-a-bank/)|[C++](./C++/NumberofLaserBeamsinaBank.cpp)<br>[JAVA](./Java/NumberofLaserBeamsinaBank.java) | Time - **O(n * m)** <br>Space - **O(1)** | Medium
+|2161|[Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)|[JAVA](./Java/NumberofLaserBeamsinaBank.java) | Time - **O(n)** <br>Space - **O(1)** | Medium
 
 ## String
 | # | Title | Solution | Complexity | Difficulty |
