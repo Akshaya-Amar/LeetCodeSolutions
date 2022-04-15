@@ -6,6 +6,7 @@ Basic Idea:
 Take out domains/subdomains from each count-paired domains and maintain the frequency/count of each of domain/subdomains in a map
 Get the number of visits along with the domain/subdomains and add to the list one by one
 
+Algorithm
 1. Create a Map to store the frequency of each domain/subdomains
 2. Iterate through the given array of Strings(cpdomains)
   - Select a count-paired domain
