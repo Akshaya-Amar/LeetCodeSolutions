@@ -2,8 +2,8 @@
 
 Source: https://leetcode.com/problems/set-matrix-zeroes/
 
-Time: O(m * n)
-Space: O(m * n)
+Time: O(m * n), where m is the number of rows and n is the number of columns
+Space: O(m * n), a boolean array is needed to seperate newly set zeros from the original ones
 
 */
 
@@ -44,6 +44,9 @@ class Solution {
 
 
 /*
+
+Time: O(m * n), where m is the number of rows and n is the number of columns
+Space: O(m + n), boolean arrays(rows and cols) are needed to mark it's row and column if it contains zeros
 
 */
 
